@@ -1,0 +1,50 @@
+body {
+  background-color:#666;
+}
+
+.me {
+ opacity: 0.45;
+ border-radius:5px;
+}
+
+.palette0 {
+  background-color: #373D4B;
+  color: #8CB2DD;
+}
+
+.palette1 {
+  background-color: #8694AB;
+}
+
+.palette2 {
+  background-color: #97C7EF;
+}
+
+.palette3 {
+  background-color: #DAE2EB;
+}
+
+.palette1 h2, .palette2 h2, .palette3 h2 {
+  color:  #373D4B;
+}
+
+.alert a , .alert a:hover, .alert a:visited{
+  color:#333;
+}
+
+.palette1 div, .palette2 div, .palette3 div {
+  color:  #373D4B;
+  
+}
+
+.alert img {
+  margin-left:10px;
+}
+.alert {
+  height: 220px;
+}
+
+.palette4 {
+  background-color: #8CB2DD;
+}
+
