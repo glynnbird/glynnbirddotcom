@@ -3,8 +3,12 @@ body {
 }
 
 .me {
- opacity: 0.45;
+
  border-radius:5px;
+}
+
+.faded {
+   opacity: 0.45;
 }
 
 .palette0 {
