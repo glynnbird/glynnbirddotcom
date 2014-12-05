@@ -20,6 +20,9 @@ body
           li 
             a(href="https://github.com/glynnbird")       
               i.fa.fa-github
+          li
+            a#emaillink(href="#")
+              i.fa.fa-envelope
           li 
             a(href="https://www.tumblr.com/blog/glynnbird")       
               i.fa.fa-tumblr
@@ -29,6 +32,10 @@ body
           li 
             a(href="http://instagram.com/glynn_bird")       
               i.fa.fa-instagram
+          li
+            a(href="http://uk.linkedin.com/pub/glynn-bird/aa/253/25a/")
+              i.fa.fa-linkedin-square
+
               
                                         
       div.clearfix 
@@ -46,24 +53,27 @@ body
         
       div.col-lg-4
         div.alert.palette2
-          a(href="https://github.com/glynnbird/geoquiz")
-            img#forkme(style="position: absolute; top: 0; right: 0; border: 0; margin-right:15px", src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67", alt="Fork me on GitHub", data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png")
-          h2 GeoQuiz
-          img.pull-right(src="/img/geoquiz.png")
-          div Client-side programming demo using jQuery & Cloudant. 
-            a(href="http://geoquiz.mybluemix.net") Test your geographical knowledge.
-          div.clearfix
-          
+          h2 GeoQuiz - Coming Soon
+          //a(href="https://github.com/glynnbird/geoquiz")
+          //  img#forkme(style="position: absolute; top: 0; right: 0; border: 0; margin-right:15px", src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67", alt="Fork me on GitHub", data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png")
+          //h2 GeoQuiz
+          //a(href="http://geoquiz.mybluemix.net")
+          //  img.pull-right(src="/img/geoquiz.png")
+          //div Client-side programming demo using jQuery & Cloudant. 
+          //  a(href="http://geoquiz.mybluemix.net") Test your geographical knowledge.
+          //div.clearfix
       
       div.col-lg-4
         div.alert.palette3 
-          a(href="https://github.com/glynnbird/celsius")
-            img#forkme(style="position: absolute; top: 0; right: 0; border: 0; margin-right:15px", src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67", alt="Fork me on GitHub", data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png")
-          h2 Celsius
-          img.pull-right(src="/img/celsius.png")
-          div Mobile-first demo built with Raspberry Pi, CouchDB & Cloudant 
-            a(href="http://celsius.mybluemix.net") measuring temperature.
-          div.clearfix
+          h2 Celsius - Coming Soon
+          //a(href="https://github.com/glynnbird/celsius")
+          //  img#forkme(style="position: absolute; top: 0; right: 0; border: 0; margin-right:15px", src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67", alt="Fork me on GitHub", data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png")
+          //h2 Celsius
+          //a(href="http://celsius.mybluemix.net")
+          //  img.pull-right(src="/img/celsius.png")
+          //div Mobile-first demo built with Raspberry Pi, CouchDB & Cloudant 
+          //  a(href="http://celsius.mybluemix.net") measuring temperature.
+          //div.clearfix
           
     div.row
       div.col-lg-4 
@@ -74,7 +84,7 @@ body
           div 
             a(href="https://www.npmjs.org/package/ccurl")
               img(src="/img/npm.png")
-              &nbsp;
+              | &nbsp;
               i.fa.fa-arrow-right
 
         
@@ -86,7 +96,7 @@ body
           div 
             a(href="https://www.npmjs.org/package/yub")
               img(src="/img/npm.png")
-              &nbsp;
+              | &nbsp;
               i.fa.fa-arrow-right
           
       
@@ -98,7 +108,32 @@ body
           div 
             a(href="https://www.npmjs.org/package/couchcache") 
               img(src="/img/npm.png") 
-              &nbsp;
+              | &nbsp;
               i.fa.fa-arrow-right
+              
+    div.row
+      div.col-lg-4 
+        div.alert.palette3
+          h2 QR Code
+          img(src="https://chart.googleapis.com/chart?chs=125x125&cht=qr&chl=http://www.glynnbird.com")
+        
+      div.col-lg-4 
+        div.alert.palette1
+          h2 CouchImport
+          div A simple CSV import for CouchDB/Cloudant. Import structured text into NoSQL from the command-line
+          div 
+            a(href="https://www.npmjs.org/package/couchimport") 
+              img(src="/img/npm.png") 
+              | &nbsp;
+              i.fa.fa-arrow-right
+        
+      div.col-lg-4 
+        div.alert.palette2  
+                      
+
+              
+              
+      script.
+        document.getElementById("emaillink").href="mailto:" + String.fromCharCode(103,108,121,110,110,46,98,105,114,100,64,103,109,97,105,108,46,99,111,109);
       
       
