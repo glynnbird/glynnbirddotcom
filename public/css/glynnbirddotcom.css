@@ -41,14 +41,29 @@ body {
   
 }
 
+
+
+
 .alert img {
   margin-left:10px;
 }
 .alert {
-  height: 220px;
+  height: 280px;
+  width:100%;
+  display: table;
+}
+
+
+.foot {
+  display: table-footer-group;
+  overflow: hidden;
 }
 
 .palette4 {
   background-color: #8CB2DD;
+}
+.spc { 
+  font-size: 10px;
+  margin-right:5px;
 }
 

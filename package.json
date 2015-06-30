@@ -1,10 +1,10 @@
 {
   "name": "glynnbird.com",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "glynnbird.com",
   "dependencies": {
-    "express": "4.8.5",
-    "jade": "1.1.4"
+    "express": "4.13.0",
+    "jade": "1.11.0"
   },
   "engines": {
     "node": "0.10.26"

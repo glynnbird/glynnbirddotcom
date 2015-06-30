@@ -1,5 +1,5 @@
 doctype html
-html(lang="en")
+html(lang="en",manifest="glynnbirddotcom.appcache")
 head
   include head.jade
 
@@ -11,7 +11,7 @@ body
     div.jumbotron.palette0
       img#me.img-responsive.pull-right.me.faded(src="/img/me.jpg")
       h1 Glynn Bird
-      p Developer Advocate @ Cloudant
+      p Developer Advocate @ IBM Cloudant
       h1  
         ul.list-inline
           li
@@ -40,208 +40,9 @@ body
                                         
       div.clearfix 
 
+      hr
       
-    div.row
-      div.col-lg-4 
-        div.alert.palette1
-          a(href="https://github.com/glynnbird/birdreader")
-            img#forkme(style="position: absolute; top: 0; right: 0; border: 0; margin-right:15px", src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67", alt="Fork me on GitHub", data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png")
-          h2 BirdReader
-          img.pull-right(src="/img/birdreader.png")
-          div Host-it-yourself RSS Reader built with Node.js & Cloudant. Host on Cloud, PC or Raspberry Pi.
-          div.clearfix
-        
-      div.col-lg-4
-        div.alert.palette2
-          a(href="https://github.com/glynnbird/geoquiz")
-            img#forkme(style="position: absolute; top: 0; right: 0; border: 0; margin-right:15px", src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67", alt="Fork me on GitHub", data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png")
-          h2 GeoQuiz
-          a(href="http://geoquiz.mybluemix.net")
-            img.pull-right(src="/img/geoquiz.png")
-          div Client-side programming demo using jQuery & Cloudant. 
-            a(href="http://geoquiz.mybluemix.net") Test your geographical knowledge.
-          div.clearfix
-      
-      div.col-lg-4
-        div.alert.palette3 
-          a(href="https://github.com/glynnbird/celsius")
-            img#forkme(style="position: absolute; top: 0; right: 0; border: 0; margin-right:15px", src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67", alt="Fork me on GitHub", data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png")
-          h2 Celsius
-          a(href="http://celsius.mybluemix.net")
-            img.pull-right(src="/img/celsius.png")
-          div Mobile-first demo built with Raspberry Pi, CouchDB & Cloudant 
-            a(href="http://celsius.mybluemix.net") measuring temperature.
-          div.clearfix
-          
-    div.row
-      div.col-lg-4 
-        div.alert.palette2
-          a(href="https://github.com/glynnbird/xword")
-            img#forkme(style="position: absolute; top: 0; right: 0; border: 0; margin-right:15px", src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67", alt="Fork me on GitHub", data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png")
-          h2 Xword
-          img.pull-right(src="/img/xword.png")
-          div Collaborative cryptic crossword tool built with PouchDB, Redis and Cloudant.
-          div.clearfix
-      
-      div.col-lg-4
-        div.alert.palette3
-          a(href="https://github.com/glynnbird/anagrammer")
-            img#forkme(style="position: absolute; top: 0; right: 0; border: 0; margin-right:15px", src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67", alt="Fork me on GitHub", data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png")
-          h2 Anagrammer
-          a(href="http://anagrammer.mybluemix.net")
-            img.pull-right(src="/img/anagrammer.png")
-          div Anagram solver built with a Cloudant's and a custom MapReduce index.
-          div.clearfix
-    
-      div.col-lg-4
-        div.alert.palette1 
-          a(href="https://github.com/glynnbird/couchimport")
-            img#forkme(style="position: absolute; top: 0; right: 0; border: 0; margin-right:15px", src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67", alt="Fork me on GitHub", data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png")
-          h2 CouchImport
-          div A simple CSV import for CouchDB/Cloudant. Import structured text into NoSQL from the command-line
-          div 
-            a(href="https://www.npmjs.org/package/couchimport") 
-              img(src="/img/npm.png") 
-              | &nbsp;
-              i.fa.fa-arrow-right
-          div.clearfix        
-          
-    div.row
-      div.col-lg-4 
-        div.alert.palette3
-          a(href="https://github.com/glynnbird/ccurl")
-            img#forkme(style="position: absolute; top: 0; right: 0; border: 0; margin-right:15px", src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67", alt="Fork me on GitHub", data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png")
-          h2 ccurl
-          div CouchDB/Cloudant command-line helper. Enables you to interact with Cloudant's HTTP API from the terminal
-            | without typing domain names, protocols, passwords, content-types etc.
-          div 
-            a(href="https://www.npmjs.org/package/ccurl")
-              img(src="/img/npm.png")
-              | &nbsp;
-              i.fa.fa-arrow-right
-
-      
-      div.col-lg-4
-        div.alert.palette1
-          a(href="https://github.com/glynnbird/yub")
-            img#forkme(style="position: absolute; top: 0; right: 0; border: 0; margin-right:15px", src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67", alt="Fork me on GitHub", data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png")        
-          h2 Yub
-          div Node.js library for interaction with Yubico's API. Enables your Node.js app to authenticate
-            | Yubikey tokens for access control.
-          div 
-            a(href="https://www.npmjs.org/package/yub")
-              img(src="/img/npm.png")
-              | &nbsp;
-              i.fa.fa-arrow-right
-        
-    
-      div.col-lg-4
-        div.alert.palette2 
-          a(href="https://github.com/glynnbird/couchcache")
-            img#forkme(style="position: absolute; top: 0; right: 0; border: 0; margin-right:15px", src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67", alt="Fork me on GitHub", data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png")        
-          h2 CouchCache
-          div A simple key/value cache layer using CouchDB/Cloudant as the storage mechanism.
-            | Useful if you have a Cloudant cluster to hand and don't want to maintain Memcache.
-          div 
-            a(href="https://www.npmjs.org/package/couchcache") 
-              img(src="/img/npm.png") 
-              | &nbsp;
-              i.fa.fa-arrow-right
-              
-    div.row
-      div.col-lg-4 
-        div.alert.palette1
-          a(href="https://github.com/glynnbird/couchmigrate")
-            img#forkme(style="position: absolute; top: 0; right: 0; border: 0; margin-right:15px", src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67", alt="Fork me on GitHub", data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png")        
-          h2 CouchMigrate
-          div A CouchDB design document migration tool that allows you to switch in a new
-            | design doc and wait for it build before putting it live.
-          div 
-           a(href="https://www.npmjs.org/package/couchmigrate") 
-             img(src="/img/npm.png") 
-             | &nbsp;
-             i.fa.fa-arrow-right
-         
-      div.col-lg-4 
-        div.alert.palette2
-          a(href="https://github.com/glynnbird/houseprices")
-            img#forkme(style="position: absolute; top: 0; right: 0; border: 0; margin-right:15px", src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67", alt="Fork me on GitHub", data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png")
-          h2 House Prices
-          a(href="http://houseprices.mybluemix.net")
-            img.pull-right(src="/img/houseprices.png")
-          div UK house price stats using MapReduce to index 30m property sales.
-          div.clearfix
-      
-      div.col-lg-4 
-        div.alert.palette3  
-        
-          a(href="https://github.com/glynnbird/flasher")
-            img#forkme(style="position: absolute; top: 0; right: 0; border: 0; margin-right:15px", src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67", alt="Fork me on GitHub", data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png")
-          h2 Flasher
-          div LED flashing utility for Raspberry pi
-          div.clearfix
- 
-                      
-    div.row
-      div.col-lg-4 
-        div.alert.palette2
-          a(href="https://github.com/glynnbird/traffic")
-            img#forkme(style="position: absolute; top: 0; right: 0; border: 0; margin-right:15px", src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67", alt="Fork me on GitHub", data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png")
-          h2 Traffic
-          img.pull-right(src="/img/traffic.png")
-          div CouchApp to generate traffic for the Raspberry Pi cluster of Cloudant.
-          div.clearfix
-      
-      div.col-lg-4
-        div.alert.palette3
-          a(href="https://github.com/glynnbird/proxee")
-            img#forkme(style="position: absolute; top: 0; right: 0; border: 0; margin-right:15px", src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67", alt="Fork me on GitHub", data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png")
-          h2 Proxee
-          div Programmable HTTP proxy that uses CouchDB/Cloudant to store configuration and to provide simple scaling.
-          div.clearfix
-    
-      div.col-lg-4
-        div.alert.palette1 
-          a(href="https://github.com/glynnbird/onedbperuser")
-            img#forkme(style="position: absolute; top: 0; right: 0; border: 0; margin-right:15px", src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67", alt="Fork me on GitHub", data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png")
-
-          h2 OneDbPerUser
-          div User registraation demo using Twilio or SendGrid to authenticate a user before creating database and access credentials for Cloudant.
-          div.clearfix
-
-    div.row
-      div.col-lg-4 
-        div.alert.palette3
-          a(href="https://github.com/glynnbird/couchshell")
-            img#forkme(style="position: absolute; top: 0; right: 0; border: 0; margin-right:15px", src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67", alt="Fork me on GitHub", data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png")
-          h2 couchshell
-          div CouchDB/Cloudant command-line shell. Enables you to interact with CouchDB as if it were a Unix file system.
-          div 
-            a(href="https://www.npmjs.org/package/couchshell") 
-              img(src="/img/npm.png") 
-              | &nbsp;
-              i.fa.fa-arrow-right
-          
-      div.col-lg-4
-        div.alert.palette1
-          a(href="https://github.com/glynnbird/couchbackup")
-            img#forkme(style="position: absolute; top: 0; right: 0; border: 0; margin-right:15px", src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67", alt="Fork me on GitHub", data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png")
-          h2 couchbackup
-          div CouchDB/Cloudant backup utility. Backup your databases to text files and restore them, all from the command-line.
-          div 
-            a(href="https://www.npmjs.org/package/couchbackup") 
-              img(src="/img/npm.png") 
-              | &nbsp;
-              i.fa.fa-arrow-right
-    
-      div.col-lg-4
-        div.alert.palette2 
-          a(href="https://github.com/glynnbird/md")
-            img#forkme(style="position: absolute; top: 0; right: 0; border: 0; margin-right:15px", src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67", alt="Fork me on GitHub", data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png")
-          h2 md
-          img.pull-right(src="/img/md.png")
-          div An offline-first word procesor built using PouchDB. It can optionally sync with a CouchDB-like database.
-  
+      div#content  
                   
       script.
         document.getElementById("emaillink").href="mailto:" + String.fromCharCode(103,108,121,110,110,46,98,105,114,100,64,103,109,97,105,108,46,99,111,109);
