@@ -1,5 +1,6 @@
 doctype html
-html(lang="en",manifest="glynnbirddotcom.appcache")
+#html(lang="en",manifest="glynnbirddotcom.appcache")
+html(lang="en")
 head
   include head.jade
 
@@ -36,14 +37,17 @@ body
             a(href="http://uk.linkedin.com/pub/glynn-bird/aa/253/25a/")
               i.fa.fa-linkedin-square
 
-              
-                                        
+        
+                                         
       div.clearfix 
 
       hr
+
+      h2#removefilter
+        a.btn.btn-primary(href="Javascript:filter('')") Remove filter       
       
       div#content  
-                  
+                
       script.
         document.getElementById("emaillink").href="mailto:" + String.fromCharCode(103,108,121,110,110,46,98,105,114,100,64,103,109,97,105,108,46,99,111,109);
       

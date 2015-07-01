@@ -1,8 +1,19 @@
 var U = "https://54a13c72-3351-4bb4-a93c-79a723b29443-bluemix.cloudant.com/glynnbirdcom";
 var db = null;
 
-var render = function() {
-  db.query(function(doc){ emit(doc.date,null)}, {descending: true, include_docs:true},  function(err, data) {
+var render = function(f) {
+  var func = null;
+  var opts = {descending: true, include_docs:true}
+  if(typeof f == "undefined" || f.length==0) {
+    func = function(doc){ emit(doc.date,null)};
+    $('#removefilter').hide();
+  } else {
+    func = function(doc) { for(var i in doc.tags) { emit([doc.tags[i], doc.date], null)} };  
+    opts.endkey=[f];
+    opts.startkey=[f+"z"];  
+    $('#removefilter').show();
+  }
+  db.query(func, opts ,  function(err, data) {
     console.log(err, data);
     var html = '<div class="row">\n';
     var col = row = 0;
@@ -29,7 +40,9 @@ var render = function() {
       }
       html += '<div class="foot">\n';
       for (var k in doc.tags) {
-        html += '  <span class="label label-primary spc">' + doc.tags[k] + '</span> \n'
+        html += '  <span class="label label-primary spc">';
+        html += '<a class="filter" href="Javascript:filter(\'' +  doc.tags[k] + '\')">' + doc.tags[k] + '</a>';
+        html += '</span> \n'
       }
       html += '</div>'
       html += '      <div class="clearfix"></div>\n';
@@ -48,6 +61,10 @@ var render = function() {
   });
   
 }
+
+var filter = function(f) {
+  render(f);
+};
 
 var onReady = function() {
   $('#me').hover(function(x){

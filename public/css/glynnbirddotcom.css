@@ -32,6 +32,8 @@ body {
   color:  #373D4B;
 }
 
+
+
 .alert a , .alert a:hover, .alert a:visited{
   color:#333;
 }
@@ -41,8 +43,13 @@ body {
   
 }
 
+.foot a , .foot a:hover, .foot a:visited {
+  color: white;
+}
 
-
+#removefilter {
+  display: none;
+}
 
 .alert img {
   margin-left:10px;
