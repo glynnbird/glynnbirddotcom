@@ -8,7 +8,8 @@ NETWORK:
 
 CACHE:
 # all of the things below are required to make this thing work offline
-# v 0.0.2
+# v 0.0.3
+
 //code.jquery.com/jquery-1.11.2.min.js
 //maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css
 //maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css
@@ -28,3 +29,4 @@ CACHE:
 /js/pouchdb.min.js
 /js/glynnbirddotcom.js
 /css/glynnbirddotcom.css
+/
