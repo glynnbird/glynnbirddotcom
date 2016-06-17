@@ -19,37 +19,43 @@ var render = function(f) {
     var col = row = 0;
     for(var i in data.rows) {
       var doc = data.rows[i].doc;
-      html += '  <div class="col-lg-4">\n';
-      html += '    <div class="alert palette' + (((row + col + 1) % 3)+1) + ' topthing">\n';
-      if (doc.git_url) {
-        html += '      <a href="' + doc.git_url + '"><img id="forkme" style="position: absolute; top: 0; right: 0; border: 0; margin-right:15px" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>\n';
-      }
-      html += '        <h2><a href="' + doc.url + '">' + doc.name + '</a></h2>\n';
+      html += '  <div class="col s12 m12 l6">\n';
+      html += '    <div class="card blue-grey lighten-5 uniform">';  //palette' + (((row + col + 1) % 3)+1) + ' topthing">\n';
+      html += '      <div class="card-content">';
+      html += '        <span class="card-title"><a class="teal-text text-darken-2" href="' + doc.url + '">' + doc.name + '</a></span>\n';
+      html += '<p class="card-body">';
       if (doc.image_url) {
-        html += '        <img src="' + doc.image_url + '" class="pull-right">\n'
+        html += '        <img src="' + doc.image_url + '" class="right">\n'
       }
-      html += '        <div>' + doc.description + '</div>\n'
+      html += '        ' + doc.description + '\n';
+      html += '</p>'
+      if (doc.git_url) {
+        html += '      <a class="waves-effect waves-light btn" href="' + doc.git_url + '"><i class="medium material-icons">code</i></a>\n';
+      }
       if (doc.npm_url) {
-        html += '<div><a href="' + doc.npm_url + '"><img src="/img/npm.png">&nbsp;<i class="fa fa-arrow-right"></i></a></div>';
+        html += '<a class="waves-effect waves-light btn" href="' + doc.npm_url + '">npm</a>&nbsp;';
       }
       if (doc.blog_url) {
-        html += '<div><a href="' + doc.blog_url + '">Article <i class="fa fa-arrow-right"></i></a></div>';
+        html += '<a class="waves-effect waves-light btn" href="' + doc.blog_url + '"><i class="medium material-icons">library_books</i></a>&nbsp;';
       }
       if (doc.demo_url) {
-        html += '<div><a href="' + doc.demo_url + '">Demo <i class="fa fa-arrow-right"></i></a></div>';
+        html += '<a class="waves-effect waves-light btn" href="' + doc.demo_url + '"><i class="medium material-icons">play_arrow</i></a>&nbsp;';
       }
-      html += '<div class="foot">\n';
+
+      html += '<br /><br />'
+      html += '<div class="card-action">\n';
       for (var k in doc.tags) {
-        html += '  <span class="label label-primary spc">';
-        html += '<a class="filter" href="Javascript:filter(\'' +  doc.tags[k] + '\')">' + doc.tags[k] + '</a>';
-        html += '</span> \n'
+        //html += '  <span class="label label-primary spc">';
+        html += '<a class="teal-text text-darken-2" href="Javascript:filter(\'' +  doc.tags[k] + '\')">' + doc.tags[k] + '</a>';
+        //html += '</span> \n'
       }
       html += '</div>'
-      html += '      <div class="clearfix"></div>\n';
+            html += '</div>'
+      //html += '      <div class="clearfix"></div>\n';
       html += '    </div>\n';
       html += '  </div>\n';
       col++;
-      if (col==3) {
+      if (col==2) {
         html += '</div>\n';
         html += '<div class="row">\n';
         row++;
@@ -93,7 +99,8 @@ var onReady = function() {
     // handle complete
     console.log("COMPLETE",info);
     render();
-    
+    Materialize.toast('Sync complete', 4000) // 4000 is the duration of the toast
+    $('#progressbar').hide();
   }).on('error', function (err) {
     // handle error
       console.log("ERROR",err)
