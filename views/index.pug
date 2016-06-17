@@ -3,27 +3,12 @@ html(lang="en")
   head
     include head.pug
   body
+    include nav.pug
+    
     div.container
-      div.card
-        div.card-content 
-          img.responsive-img.circle.profile.right(src="/img/me.jpg")
-          span.card-title Glynn Bird
-          p.bannerbody Developer Advocate @ IBM 
-          div.chip
-            a.teal-text.text-darken1(href="https://twitter.com/glynn_bird") Twitter
-          div.chip 
-            a.teal-text.text-darken1(href="https://github.com/glynnbird") Github
-          div.chip
-            a#emaillink.teal-text.text-darken1(href="#") Email
-          div.chip 
-            a.teal-text.text-darken1(href="https://www.tumblr.com/blog/glynnbird") Tumblr
-          div.chip 
-            a.teal-text.text-darken1(href="https://plus.google.com/u/0/104568547176207232389/posts") Google
-          div.chip 
-            a.teal-text.text-darken1(href="http://instagram.com/glynn_bird") Instagram
-          div.chip
-            a.teal-text.text-darken1(href="http://uk.linkedin.com/pub/glynn-bird/aa/253/25a/") LinkedIn
 
+      include me.pug
+      
       div#progressbar.progress
         div.indeterminate
   

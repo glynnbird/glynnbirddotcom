@@ -1,5 +1,4 @@
 // app.js
-
 var express = require('express'),
   app = express()
   
@@ -14,8 +13,16 @@ app.get('/', function(req, res){
   res.render('index',{ });
 });
 
+app.get('/about', function(req, res){
+  res.render('about',{ });
+});
+
+app.get('/ingredients', function(req, res){
+  res.render('ingredients',{ });
+});
+
 app.use(function(req, res, next){
-  res.redirect("/");
+  res.status(404);
 });
 
 // The IP address of the Cloud Foundry DEA (Droplet Execution Agent) that hosts this application:

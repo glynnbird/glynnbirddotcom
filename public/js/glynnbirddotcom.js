@@ -82,6 +82,7 @@ var filter = function(f) {
 };
 
 var onReady  = function() {
+  $(".button-collapse").sideNav();
   db = new PouchDB("glynnbirdcom");
   render();
   db.replicate.from(U).on('complete', function (info) {

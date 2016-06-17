@@ -4,6 +4,8 @@
 var CACHE_NAME = 'offline-first-cache-v5';
 var urlsToCache = [
   '/',
+  '/about',
+  '/ingredients',
   '/img/me.jpg',
   '/css/glynnbirddotcom.css',
   '/js/glynnbirddotcom.js',
