@@ -7,7 +7,7 @@ var express = require('express'),
 app.use(express.static(__dirname + '/public')); 
 
 // use the jade templating engine
-app.set('view engine', 'jade');
+app.set('view engine', 'pug');
 
 // render index page
 app.get('/', function(req, res){

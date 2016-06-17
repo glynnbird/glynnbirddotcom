@@ -3,14 +3,14 @@
   "version": "0.0.3",
   "description": "glynnbird.com",
   "dependencies": {
-    "express": "4.13.0",
-    "jade": "1.11.0"
+    "express": "4.14.0",
+    "pug": "^2.0.0-beta3"
   },
   "engines": {
     "node": "0.10.26"
   },
   "repository": "https://github.com/glynnbird/glynnbirddotcom",
-	"scripts": {
-		"start": "node app.js"
-	}
+  "scripts": {
+    "start": "node app.js"
+  }
 }

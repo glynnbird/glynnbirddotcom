@@ -1,6 +1,18 @@
 var U = "https://54a13c72-3351-4bb4-a93c-79a723b29443-bluemix.cloudant.com/glynnbirdcom";
 var db = null;
 
+var initServiceWorker = function () {
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/serviceworker.js').then(function (registration) {
+      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    }).catch(function (err) {
+      console.log('ServiceWorker registration failed: ', err);
+    });
+  } else {
+    console.log('ServiceWorker is not supported');
+  }
+}
+
 var render = function(f) {
   var func = null;
   var opts = {descending: true, include_docs:true}
@@ -45,13 +57,10 @@ var render = function(f) {
       html += '<br /><br />'
       html += '<div class="card-action">\n';
       for (var k in doc.tags) {
-        //html += '  <span class="label label-primary spc">';
-        html += '<a class="teal-text text-darken-2" href="Javascript:filter(\'' +  doc.tags[k] + '\')">' + doc.tags[k] + '</a>';
-        //html += '</span> \n'
+        html += '<a class="tag teal-text text-darken-2" href="Javascript:filter(\'' +  doc.tags[k] + '\')">' + doc.tags[k] + '</a>';
       }
       html += '</div>'
             html += '</div>'
-      //html += '      <div class="clearfix"></div>\n';
       html += '    </div>\n';
       html += '  </div>\n';
       col++;
@@ -72,58 +81,25 @@ var filter = function(f) {
   render(f);
 };
 
-var onReady = function() {
-  $('#me').hover(function(x){
-    $('#me').removeClass("faded");
-  },function(y) {
-    $('#me').addClass("faded");
-  });
-  
-  console.log("POUCH");
+var onReady  = function() {
   db = new PouchDB("glynnbirdcom");
-  console.log("REPLICATE");
   render();
-  db.replicate.from(U).on('change', function (info) {
-  // handle change
-      console.log("CHANGE",info)
-  }).on('paused', function () {
-    // replication paused (e.g. user went offline)
-  }).on('active', function () {
-    // replicate resumed (e.g. user went back online)
-      console.log("ACTIVE")
-  }).on('denied', function (info) {
-    // a document failed to replicate, e.g. due to permissions
-      console.log("DENIED",info)
-    
-  }).on('complete', function (info) {
+  db.replicate.from(U).on('complete', function (info) {
     // handle complete
-    console.log("COMPLETE",info);
+    console.log("Replicaton COMPLETE",info);
     render();
-    Materialize.toast('Sync complete', 4000) // 4000 is the duration of the toast
+    Materialize.toast('Sync complete', 4000);
     $('#progressbar').hide();
   }).on('error', function (err) {
     // handle error
-      console.log("ERROR",err)
-    
+    console.log("ERROR",err)
+    $('#progressbar').hide();
+    Materialize.toast('Cannot sync', 4000);
   });
-
 };
 
-$( document ).ready( onReady );
-
-// Check if a new cache is available on page load.
-window.addEventListener('load', function(e) {
-
-  window.applicationCache.addEventListener('updateready', function(e) {
-    if (window.applicationCache.status == window.applicationCache.UPDATEREADY) {
-      // Browser downloaded a new app cache.
-      if (confirm('A new version of this site is available. Load it?')) {
-        window.location.reload();
-      }
-    } else {
-      // Manifest didn't changed. Nothing new to server.
-    }
-  }, false);
-
-}, false);
+window.onload = function () {
+ initServiceWorker(); 
+ onReady()
+};
 
