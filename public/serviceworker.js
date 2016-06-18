@@ -33,19 +33,18 @@ function shouldCache(url) {
   }
 }
 
+// capture the service worker's install event
 self.addEventListener('install', function (event) {
-  // Perform install steps
-  //console.log('WORKER: install');
   event.waitUntil(
     caches
       .open(CACHE_NAME)
       .then(function (cache) {
-        console.log('Opened cache', urlsToCache);
         return cache.addAll(urlsToCache);
       })
   );
 });
 
+// captuer each outgoing web request from this page
 self.addEventListener('fetch', function (event) {
   if (event.request.method !== 'GET') {
     // console.log(['WORKER: fetch event ignored.', event.request]);
@@ -62,26 +61,25 @@ self.addEventListener('fetch', function (event) {
         return cached || networked;
 
         function fetchedFromNetwork(response) {
-          var cacheCopy = response.clone();
-          console.log('WORKER: fetched response from network.', event.request);
+          var newCopy = response.clone();
           if (shouldCache(event.request.url)) {
-            console.log('WORKER: caching new response from network', event.request.url);
+//            console.log('WORKER: caching new response from network', event.request.url);
             caches
               .open(CACHE_NAME)
               .then(function (cache) {
-                cache.put(event.request, cacheCopy);
+                cache.put(event.request, newCopy);
               })
               .then(function () {
-                console.log('WORKER: fetch response stored in cache.', event.request.url);
+  //              console.log('WORKER: fetch response stored in cache.', event.request.url);
               });
           } else {
-            console.log('WORKER: not caching ', event.request.url);
+  //          console.log('WORKER: not caching ', event.request.url);
           }
           return response;
         }
 
         function unableToResolve() {
-          console.log('WORKER: fetch request failed in both cache and network.');
+  //        console.log('WORKER: fetch request failed in both cache and network.');
           return new Response('<h1>Service Unavailable</h1>', {
             status: 503,
             statusText: 'Service Unavailable',
@@ -95,7 +93,9 @@ self.addEventListener('fetch', function (event) {
 }
 );
 
-
+// capture the service worker's activate event
+// this is called when a new service worker supercedes
+// the older one. In this case it invalidates any old cache keys
 self.addEventListener('activate', function (event) {
   var cacheWhitelist = [CACHE_NAME];
   event.waitUntil(

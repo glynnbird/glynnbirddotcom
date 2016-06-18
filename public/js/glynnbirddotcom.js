@@ -1,4 +1,5 @@
-var U = "https://54a13c72-3351-4bb4-a93c-79a723b29443-bluemix.cloudant.com/glynnbirdcom";
+
+var U = "https://fiefteratheadondahincter:c75e17f9173a7af9cb738652a4ddc14566981490@54a13c72-3351-4bb4-a93c-79a723b29443-bluemix.cloudant.com/glynnbirdcom";
 var db = null;
 
 var initServiceWorker = function () {
@@ -95,11 +96,12 @@ var onReady  = function() {
     // handle error
     console.log("ERROR",err)
     $('#progressbar').hide();
-    Materialize.toast('Cannot sync', 4000);
+    Materialize.toast('Offline', 4000);
   });
 };
 
 window.onload = function () {
+  $('#progressbar').show()
  initServiceWorker(); 
  onReady()
 };

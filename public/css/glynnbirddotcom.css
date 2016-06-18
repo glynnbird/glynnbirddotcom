@@ -3,11 +3,11 @@
  }
 
  .bannerbody {
-   min-height:100px;
+   min-height:40px;
  }
 
 .profile {
-  width:150px;
+  width:100px;
 }
 
 .chip {
@@ -17,5 +17,9 @@
 
 .tag {
   font-size:12px
+}
+
+#progressbar {
+  display: none
 }
 
