@@ -1,9 +1,0 @@
-applications:
-- disk_quota: 1024M
-  host: glynnbirddotcom
-  name: glynnbird.com
-  command: node app.js
-  path: .
-  domain: mybluemix.net
-  instances: 1
-  memory: 128M
