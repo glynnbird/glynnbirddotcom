@@ -1,0 +1,26 @@
+{
+  "name": "glynnbird.com",
+  "version": "1.0.0",
+  "description": "Glynn Bird's home page",
+  "main": "index.js",
+  "dependencies": {
+    "mustache": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glynnbird/glynnbirddotcom.git"
+  },
+  "keywords": [
+    "static"
+  ],
+  "author": "Glynn Bird <glynn.bird@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/glynnbird/glynnbirddotcom/issues"
+  },
+  "homepage": "https://github.com/glynnbird/glynnbirddotcom#readme"
+}
