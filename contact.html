@@ -1,0 +1,29 @@
+---
+  layout: minimal
+  title: glynnbird.com - Contact
+---
+<script src="https://www.google.com/recaptcha/api.js"></script>
+<div class="article">
+  I'd love to hear from you. If you're human and you wish to send me feedback, ideas or anything else,
+  please complete the form and I'll get back to you.
+</div>
+<form class="article" method="post" action="{{ site.contactus_action }}">
+  <div>
+    <label for="name">Name</label><br>
+    <input type="text" id="name" name="name">
+  </div>
+  <div>
+    <label for="email">Email</label><br>
+    <input type="email" id="email" name="email">
+  </div>
+  <div>
+    <label for="message">Message</label><br>
+    <textarea id="message" name="message"></textarea>
+  </div>
+  <div class="g-recaptcha" data-sitekey="{{ site.recaptcha }}"></div>
+  <div>
+    <input type="submit" value="Send" />
+  </div>
+</form>
+<div class="article"></div>
+
