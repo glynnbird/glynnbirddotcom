@@ -30,7 +30,22 @@ const main = function(args, callback) {
       const email = args['email']
       const message = args['message']
       console.log(name, email, message)
-      return resolve({ statusCode: 302, headers: { location: 'https://glynnbird.com/contact_success.html' } })
+
+      // now we can post this to Slack
+      const slackpost = 'You got a message from ' + name + '(' + email + '). It said:\r\n'+message
+      console.log(slackpost)
+      const r2 = {
+        uri: args['SLACK_WEBHOOK_URL'],
+        method: 'post',
+        form: {
+          payload: JSON.stringify({ text: slackpost })
+        }
+      }
+      request(r2, (err, response, body) => {
+        console.log(err, body)
+        return resolve({ statusCode: 302, headers: { location: 'https://glynnbird.com/contact_success.html' } })
+      })
+
     })
   })
 }
