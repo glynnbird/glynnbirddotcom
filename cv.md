@@ -1,5 +1,5 @@
 ---
-  layout: cv
+  layout: minimal
   title: Curriculum Vitae
 ---
 
