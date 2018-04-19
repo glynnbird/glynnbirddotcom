@@ -1,5 +1,5 @@
 ---
-  layout: minimal
+  layout: default
   title: Curriculum Vitae
 ---
 
@@ -61,3 +61,4 @@ Developer advocate for IBM Cloud producing [blog posts](https://medium.com/@glyn
 - Written communication - My [written output]((https://medium.com/@glynn_bird/latest)) is proflific but clear and thorough with an emphasis on explaining difficult topics in digestable terms, without sacrificing detail.
 - Serverless technology - Apache OpenWhisk & AWS Lambda using Node.js. 
 - Smart Contracts on the Ethereum blockchain - Writing contract code in Solidity. I have presented talks and workshops on Ethereum and blockchain technologies.
+- 
