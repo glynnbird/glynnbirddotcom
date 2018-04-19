@@ -55,7 +55,9 @@ Developer advocate for IBM Cloud producing [blog posts](https://medium.com/@glyn
 
 ## Key Skills
 
-- Programming - C, C++, Objective-C, PHP, Forth, Java, Javascript, Node.js, Python
+- Programming - C, C++, Objective-C, PHP, Forth, Java, Javascript, Node.js, Python, Solidity
 - Databases - MySQL, Postgresql, MS-SQL, Redis, MongoDB, Apache CouchDB, BerkeleyDB
 - Development Team Management - Managing development teams including testing, design and database in short, agile sprints (2-3 days).
-- Written communication - My written output is proflific but clear and thorough with an emphasis on explaining difficult topics in digestable terms, without sacrificing detail.
+- Written communication - My [written output]((https://medium.com/@glynn_bird/latest)) is proflific but clear and thorough with an emphasis on explaining difficult topics in digestable terms, without sacrificing detail.
+- Serverless technology - Apache OpenWhisk & AWS Lambda using Node.js. 
+- Smart Contracts on the Ethereum blockchain - Writing contract code in Solidity. I have presented talks and workshops on Ethereum and blockchain technologies.
