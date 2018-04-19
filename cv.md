@@ -61,4 +61,5 @@ Developer advocate for IBM Cloud producing [blog posts](https://medium.com/@glyn
 - Written communication - My [written output]((https://medium.com/@glynn_bird/latest)) is proflific but clear and thorough with an emphasis on explaining difficult topics in digestable terms, without sacrificing detail.
 - Serverless technology - Apache OpenWhisk & AWS Lambda using Node.js. 
 - Smart Contracts on the Ethereum blockchain - Writing contract code in Solidity. I have presented talks and workshops on Ethereum and blockchain technologies.
-- 
+- Open source - Many [open source](https://github.com/glynnbird) software contributions. Apache contributor and producer of command-line utilites, libraries and demos, many published on [npm](https://www.npmjs.com/~glynnbird).
+- Public speaking - Extensive public speaking experience at meetups and conferences. [Video](https://www.youtube.com/watch?v=znCBbrYeUA4)
