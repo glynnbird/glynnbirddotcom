@@ -1,7 +1,19 @@
 
+- url: https://medium.com/ibm-watson-data-lab/cloudant-fundamentals-the-document-855c5ab92051
+  title: Cloudant Fundamentals - The Document
+  summary: General tips on data modelling JSON documents.
+  tags: 
+    - Cloudant
+
+- url: https://medium.com/ibm-watson-data-lab/protecting-your-website-forms-with-serverless-captcha-27e3ed2794a0
+  title: Protecting Your Website Forms With Serverless CAPTCHA
+  summary: Using a serverless function to prevent spam form completions.
+  tags: 
+    - Serverless
+
 - url: https://medium.com/ibm-watson-data-lab/keeping-your-secrets-between-cloud-object-storage-and-your-browser-part-2-3991e39e5403
   title: Keeping Your Secrets Between Cloud Object Storage and Your Browser (Part 2)
-  summary: Downling files from Object Storage to the browser
+  summary: Downloading files from Object Storage to the browser
   tags: 
     - Serverless
     - Object Storage
