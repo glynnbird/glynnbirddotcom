@@ -1,3 +1,8 @@
+- url: https://medium.com/ibm-watson-data-lab/cloudant-fundamentals-the-id-f6c7c88fbc75
+  title: Cloudant Fundamentals - The _id
+  summary: Unlocking the mysteries of the unique _id field.
+  tags: 
+    - Cloudant
 
 - url: https://medium.com/ibm-watson-data-lab/cloudant-fundamentals-the-document-855c5ab92051
   title: Cloudant Fundamentals - The Document
