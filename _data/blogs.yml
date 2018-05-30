@@ -1,4 +1,23 @@
 
+- url: https://medium.com/@glynn_bird/emoji-in-cloudant-documents-ba8ce80f4855
+  title: Emoji in Cloudant documents
+  summary: Emoji are everywhere, but can they survive in a JSON data store?
+  tags:
+    - Cloudant
+
+- url: https://medium.com/ibm-watson-data-lab/cloudant-fundamentals-using-the-api-with-curl-4c4a4f278104
+  title: Cloudant Fundamentals - The API
+  summary: Using the API from the command-line
+  tags:
+    - Cloudant
+
+- url: https://medium.com/@glynn_bird/date-formats-for-apache-couchdb-and-cloudant-1c017b7b878b
+  title: Date formats for Apache CouchDB & Cloudant
+  summary: Picking the best format when storing date & time in JSON
+  tags:
+    - Cloudant
+    - CouchDB
+
 - url: https://medium.com/ibm-watson-data-lab/cloudant-fundamentals-the-rev-token-fb0fc19a3145
   title: Cloudant Fundamentals - The rev token
   summary: It's all about revisions. And trees.
