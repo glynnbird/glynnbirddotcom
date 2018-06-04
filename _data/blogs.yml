@@ -1,3 +1,8 @@
+- url: https://medium.com/ibm-watson-data-lab/cloudant-fundamentals-using-the-bulk-api-26ebce473838
+  title: Cloudant Fundamentals - The Bulk API
+  summary: Using the bulk API to write and fetch documents
+  tags:
+    - Cloudant
 
 - url: https://medium.com/@glynn_bird/emoji-in-cloudant-documents-ba8ce80f4855
   title: Emoji in Cloudant documents
