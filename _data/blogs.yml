@@ -1,10 +1,16 @@
+- url: https://medium.com/@glynn_bird/optimising-cloudant-for-serverless-7ddafe33c8cd
+  title: Optimising Cloudant for Serverless
+  summary: Getting the best out of Cloudant using Cloud Functions
+  tags:
+    - Cloudant
+    - Serverless
+
 - url: http://www.se-radio.net/2018/06/se-radio-episode-327-glynn-bird-on-developer-productivity-with-open-source/
   title: Software Engineering Radio Podcast
   summary: Developer Productivity with Open Source
   tags:
     - Open Source
     - Podcast
-
 
 - url: https://medium.com/ibm-watson-data-lab/cloudant-fundamentals-programmatic-crud-678b45cada06
   title: Cloudant Fundamentals - Programmatic CRUD
