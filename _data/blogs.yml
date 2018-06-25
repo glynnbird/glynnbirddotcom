@@ -1,3 +1,10 @@
+- url: https://medium.com/ibm-watson-data-lab/cloudant-fundamentals-querying-in-node-js-6f6453289f15
+  title: Cloudant Fundamentals - Querying in Node.js
+  summary: Using Node.js to build JSON and SQL queries
+  tags:
+    - Cloudant
+    - Query
+
 - url: https://medium.com/ibm-watson-data-lab/cloudant-fundamentals-querying-82fdcaea1677
   title: Cloudant Fundamentals - Querying
   summary: Using Cloudant Query to slice and dice your data
