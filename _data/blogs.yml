@@ -1,3 +1,53 @@
+- url: https://medium.com/@glynn_bird/adding-cloudant-search-to-your-static-jekyll-blog-5ad76b32a902
+  title: Adding Cloudant search to your static Jekyll blog
+  summary: Making a static HTML website have dynamic search
+  tags:
+    - Cloudant
+    - Search
+
+- url: https://medium.com/ibm-watson-data-lab/cloudant-fundamentals-aggregations-9d038836ca52
+  title: Cloudant Fundamentals - Aggregations
+  summary: _sum-ming up the basics of Cloudant (part 10 of 10)
+  tags:
+    - Cloudant
+    - MapReduce
+
+- url: https://medium.com/@glynn_bird/removing-cloudant-conflicts-9359f3dc7edd
+  title: Removing Cloudant conflicts
+  summary: Using couchdeconflict, a command-line tool, to declutter your database
+  tags:
+    - Cloudant
+    - Conflicts
+
+- url: https://medium.com/@glynn_bird/introducing-couchdb-nano-7-0-0-7c53a4f9a2a9
+  title: Introducing CouchDB Nano 7.0.0
+  summary: The latest release of the official Node.js library for Apache CouchDB
+  tags:
+    - Cloudant
+    - Query
+
+- url: https://medium.com/@glynn_bird/using-cloudant-from-jupyter-notebooks-acf36428d65c
+  title: Using Cloudant from Jupyter Notebooks
+  summary: Analyse your app’s Cloudant data directly from an interactive notebook
+  tags:
+    - Cloudant
+    - Notebooks
+
+- url: https://medium.com/ibm-watson-data-lab/cloudant-fundamentals-indexing-d604fb8c21a5
+  title: Cloudant Fundamentals - Indexing
+  summary: Primary or secondary? Type json or text? Understanding your options (part 9 of 10)
+  tags:
+    - Cloudant
+    - Query
+
+- url: https://medium.com/@glynn_bird/modelling-cloudant-data-in-typescript-b95da651e9a7
+  title: Modelling Cloudant data in TypeScript
+  summary: Using TypeScript classes in your code and saving their JSON representation in a Cloudant database.
+  tags:
+    - Cloudant
+    - TypeScript
+
+
 - url: https://medium.com/ibm-watson-data-lab/cloudant-fundamentals-querying-in-node-js-6f6453289f15
   title: Cloudant Fundamentals - Querying in Node.js
   summary: Using Node.js to build JSON and SQL queries
