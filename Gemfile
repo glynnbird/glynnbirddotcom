@@ -8,8 +8,6 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-group :jekyll_plugins do
-  gem 'octopress-minify-html'
-end
+gem 'jekyll-press'
 gem "jekyll", "~> 3.7.3"
 
