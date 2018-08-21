@@ -19,3 +19,7 @@ contactus_action: https://openwhisk.ng.bluemix.net/api/v1/web/glynnbir%40uk.ibm.
 twitter: glynn_bird
 email: glynn.bird@gmail.com
 
+gems:
+  - octopress-minify-html
+
+env: production
