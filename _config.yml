@@ -19,8 +19,12 @@ contactus_action: https://openwhisk.ng.bluemix.net/api/v1/web/glynnbir%40uk.ibm.
 twitter: glynn_bird
 email: glynn.bird@gmail.com
 
-jekyll-press:
-  exclude: 'atom.xml' # Exclude files from processing - file name, glob pattern or array of file names and glob patterns
-  js_options: {}      # js minifier options
-  css_options: {}     # css minifier options
-  html_options: {}    # html minifier options
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: []
+  blanklines: false
+  profile: false
+  startings: []
