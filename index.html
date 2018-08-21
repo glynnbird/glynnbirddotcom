@@ -1,25 +1,32 @@
 ---
-  layout: default
+  layout: minimal
   title: glynnbird.com - the homepage of Glynn Bird
 ---
-{% for blog in site.data.blogs %}
-<div class="article">
-  <h3><a href="{{ blog.url }}">{{ blog.title }}</a></h3>
-  <div>{{ blog.summary}}</div>
-  <div class="lk"><a href="{{ blog.url }}">Article</i></a></div>
-  {% if blog.github %}
-  <div class="lk"><a href="{{ blog.github }}">Github</i></a></div>
-  {% endif %}
-  {% if blog.npm %}
-  <div class="lk"><a href="{{ blog.npm }}">npm</i></a></div>
-  {% endif %}
-  {% if blog.demo %}
-  <div class="lk"><a href="{{ blog.demo }}">Demo</i></a></div>
-  {% endif %}
-  <div class="ft">
-    {% for tag in blog.tags %}
-    <span>{{ tag }}</span>
-    {% endfor %}
+<div class="awrapper" id="content">
+  {% for blog in site.data.blogs limit:9 %}
+  <div class="article">
+    <h3><a href="{{ blog.url }}">{{ blog.title }}</a></h3>
+    <div>{{ blog.summary}}</div>
+    <div class="lk"><a href="{{ blog.url }}">Article</i></a></div>
+    {% if blog.github %}
+    <div class="lk"><a href="{{ blog.github }}">Github</i></a></div>
+    {% endif %}
+    {% if blog.npm %}
+    <div class="lk"><a href="{{ blog.npm }}">npm</i></a></div>
+    {% endif %}
+    {% if blog.demo %}
+    <div class="lk"><a href="{{ blog.demo }}">Demo</i></a></div>
+    {% endif %}
+    <div class="ft">
+      {% for tag in blog.tags %}
+      <span>{{ tag }}</span>
+      {% endfor %}
+    </div>
   </div>
+  {% endfor %}
+</div>
+{% for blog in site.data.blogs offset:9 %}
+<div>
+  <a href="{{ blog.url }}"><b>{{ blog.title }}</b> {{ blog.summary}}</a>
 </div>
 {% endfor %}
