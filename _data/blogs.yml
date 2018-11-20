@@ -1,3 +1,31 @@
+- url: https://medium.com/@glynn_bird/couchdb-and-the-data-warehouse-506b8ce81674
+  title: CouchDB and the data warehouse
+  summary: Pairing CouchDB, as a primary data store, and a data warehouse for ad-hoc queries gives you the best of both worlds.
+  tags:
+    - warehouse
+    - Cloudant
+
+- url: https://blog.cloudant.com/2018/10/19/Search-Analyzers.html
+  title: Search Analyzers in Cloudant Search
+  summary: Picking the right analyzer in your Lucene search
+  tags:
+    - Cloudant
+    - search
+
+- url: https://medium.com/@glynn_bird/generating-sample-data-for-a-json-data-store-1eb45604691e
+  title: Generating sample data for a JSON data store
+  summary: Using datamaker to generate meaningful sample data
+  tags:
+    - data
+    - datamaker
+
+- url: https://medium.com/@glynn_bird/time-sortable-document-ids-in-cloudant-c3af5b23d8bf
+  title: Time-sortable document ids in Cloudant/CouchDB
+  summary: Making a document id that is time-sortable and unique
+  tags:
+    - Cloudant
+    - id
+
 - url: https://medium.com/@glynn_bird/adding-cloudant-search-to-your-static-jekyll-blog-5ad76b32a902
   title: Adding Cloudant search to your static Jekyll blog
   summary: Making a static HTML website have dynamic search
