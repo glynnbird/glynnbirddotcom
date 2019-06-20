@@ -1,3 +1,101 @@
+- url: https://blog.cloudant.com/2019/05/31/Paging-with-Cloudant-Bookmarks.html
+  title: Paging with Cloudant bookmarks
+  summary: Paging through results sets using the Cloudant bookmark feature
+  tags:
+    - Search
+    - Cloudant
+
+- url: https://blog.cloudant.com/2019/05/24/Partitioned-Databases-with-Cloudant-Libraries.html
+  title: Partitioned Databases and Node.js
+  summary: Using partitioned databases with the Node.js Cloudant library
+  tags:
+    - Node.js
+    - Cloudant
+
+- url: https://blog.cloudant.com/2019/05/15/Scheduled-Cloudant-Backups.html
+  title: Scheduled Cloudant Backups
+  summary: Running regular backups of Cloudant databases using Kubernetes crons.
+  tags:
+    - Kubernetes
+    - Cloudant
+
+- url: https://blog.cloudant.com/2019/05/10/Optimal-Cloudant-Indexing.html
+  title: Optimal Cloudant Indexing
+  summary: Using fewer indexes across multiple document types.
+  tags:
+    - CouchDB
+    - Cloudant
+
+- url: https://blog.cloudant.com/2019/04/23/Analysing-Cloudant-Backups-with-SQL-Query.html
+  title: Analyzing backups with SQL Query
+  summary: Archiving Cloudant data and querying it at rest on Object Storage.
+  tags:
+    - SQL
+    - Cloudant
+
+- url: https://blog.cloudant.com/2019/04/08/Time-series-data-storage.html
+  title: Time-series data storage
+  summary: 
+  tags:
+    - CouchDB
+    - Cloudant
+
+- url: https://blog.cloudant.com/2019/03/29/Building-a-CRM-System.html
+  title: Building a CRM System
+  summary: How to build a CRM system with Cloudant's Partitioned Databases
+  tags:
+    - Partitions
+    - Cloudant
+
+- url: https://blog.cloudant.com/2019/03/05/Partition-Databases-Sizing.html
+  title: Partitioned Databases - Sizing
+  summary: Calculating the sizes of the partitions in Cloudant database
+  tags:
+    - Partitions
+    - Cloudant
+
+- url: https://blog.cloudant.com/2019/03/05/Partition-Databases-Data-Migration.html
+  title: Partitioned Databases - Data Migration
+  summary: Moving data from a non-partitioned to a partitioned database
+  tags:
+    - Partitions
+    - Cloudant
+
+- url: https://blog.cloudant.com/2019/03/05/Partition-Databases-Data-Design.html
+  title: Partitioned Databases - Data Design
+  summary: How to design data for a partitioned Cloudant database
+  tags:
+    - Partitions
+    - Cloudant
+
+- url: https://blog.cloudant.com/2019/03/05/Partition-Databases-Introduction.html
+  title: Partitioned Databases - Introduction
+  summary: Introduction to the new partitioned databases feature in Cloudant
+  tags:
+    - Partitions
+    - Cloudant
+
+- url: https://medium.com/datadriveninvestor/natural-language-classifcation-with-couchdb-5a5396b86207
+  title: Natural Language Classification with CouchDB
+  summary: Combining CouchDB with the IBM Watson Natural Language Classifier service
+  tags:
+    - CouchDB
+    - Cloudant
+
+- url: https://medium.com/@glynn_bird/the-count-distinct-problem-solved-by-couchdb-a2dea8d2f99a
+  title: The Count Distinct Problem with CouchDB
+  summary: Counting the distinct numbers of things in a collection is a memory intensive operation, but if you can accept an approximate answer there is a solution.
+  tags:
+    - CouchDB
+    - Cloudant
+
+- url: https://medium.com/@glynn_bird/caching-couchdb-requests-with-nginx-15dd1136e38f
+  title: Caching CouchDB requests with Nginx
+  summary: Caching frequently-performed searches can make your app run much faster with very little change in your code
+  tags:
+    - CouchDB
+    - Cloudant
+
 - url: https://medium.com/@glynn_bird/couchdb-and-the-data-warehouse-506b8ce81674
   title: CouchDB and the data warehouse
   summary: Pairing CouchDB, as a primary data store, and a data warehouse for ad-hoc queries gives you the best of both worlds.
