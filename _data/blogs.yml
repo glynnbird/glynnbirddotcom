@@ -1,3 +1,16 @@
+- url: https://developer.ibm.com/articles/error-detection-and-handling-with-redis/
+  title: Error detection with Redis
+  summary: Configuring retry/reconnection logic with Redis
+  tags:
+    - Redis
+
+- url: https://medium.com/@glynn_bird/replicating-from-a-query-with-couchdb-dd3ffc5c4b31
+  title: Replicating from a Query
+  summary: Replacing filtered CouchDB replication with query/write pattern
+  tags:
+    - CouchDB
+    - Cloudant
+
 - url: https://blog.cloudant.com/2019/05/31/Paging-with-Cloudant-Bookmarks.html
   title: Paging with Cloudant bookmarks
   summary: Paging through results sets using the Cloudant bookmark feature
