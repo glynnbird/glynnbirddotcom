@@ -1,3 +1,10 @@
+- url: https://blog.cloudant.com/2019/08/16/Design-Docs-For-Life.html
+  title: Design Docs For Life
+  summary: Design documents in Cloudant & CouchDB
+  tags:
+    - CouchDB
+    - Cloudant
+
 - url: https://developer.ibm.com/articles/error-detection-and-handling-with-redis/
   title: Error detection with Redis
   summary: Configuring retry/reconnection logic with Redis
