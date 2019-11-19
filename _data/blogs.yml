@@ -1,3 +1,31 @@
+- url: https://blog.cloudant.com/2019/11/08/Case-sensitivity-in-queries.html
+  title: Case-sensitivity in queries
+  summary: Making a case-sensitive/insensitive query, MapReduce and search.
+  tags:
+    - Query
+    - Cloudant
+
+- url: https://github.com/glynnbird/couchsnapshot
+  title: couchsnapshot
+  summary: Point-in-time backup tool for CouchDB/Cloudant
+  tags:
+    - Backup
+    - CouchDB
+
+- url: https://blog.cloudant.com/2019/10/25/Paginating-all_docs-and-views.html
+  title: Paginating _all_docs
+  summary: Three ways to page through the CouchDB primary index
+  tags:
+    - Pagination
+    - Cloudant
+
+- url: https://blog.cloudant.com/2019/09/16/Cloudant-Logging-with-LogDNA.html
+  title: Logging with LogDNA
+  summary: Logging Cloudant requests to LogDNA for monitoring and analysis
+  tags:
+    - Logging
+    - Cloudant
+
 - url: https://blog.cloudant.com/2019/08/16/Design-Docs-For-Life.html
   title: Design Docs For Life
   summary: Design documents in Cloudant & CouchDB
@@ -55,7 +83,7 @@
 
 - url: https://blog.cloudant.com/2019/04/08/Time-series-data-storage.html
   title: Time-series data storage
-  summary: 
+  summary: Managing ever-growing data sets with time-boxed buckets.
   tags:
     - CouchDB
     - Cloudant
