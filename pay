@@ -1,0 +1,19 @@
+{
+  "payId": "pay$glynnbird.com",
+  "addresses": [
+    {
+      "paymentNetwork": "BTC",
+      "environment": "MAINNET",
+      "details": {
+        "address": "1MpKmYqFK9pkZQJ9iKXYXgnrYckShtvoaJ"
+      }
+    },
+    {
+      "paymentNetwork": "ETH",
+      "environment": "MAINNET",
+      "details": {
+        "address": "0xf203aD6CC9AD6d9289b7518a0Be28CC8d42eC91E"
+      }
+    }
+  ]
+}
