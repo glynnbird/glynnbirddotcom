@@ -1,6 +1,6 @@
 ---
-  layout: minimal
-  title: glynnbird.com - the homepage of Glynn Bird
+layout: default.njk
+title: glynnbird.com - the homepage of Glynn Bird
 ---
 <div class="awrapper" id="content">
   {% for blog in site.data.blogs limit:9 %}
