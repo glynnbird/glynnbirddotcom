@@ -1,10 +1,12 @@
 ---
-  layout: default.njk
+  layout: homepage.njk
   title: Curriculum Vitae
 ---
 
 ## Personal Details
 
+|                   |                    |
+| ----------------- | ------------------ |
 | **Name**          | Glynn Robert Bird  |
 | **Date of Birth** | 18th November 1969 |
 | **Gender**        | Male               |
@@ -15,6 +17,8 @@
 
 ## Education
 
+|                   |                    |
+| ----------------- | ------------------ |
 | **Nunthorpe Comprehensive**     | 9 'O' levels |
 | **South Park 6th Form College** | 4 'A' levels |
 | **University of Teesside**      | BSc (hons) Business Computing 1st Class |

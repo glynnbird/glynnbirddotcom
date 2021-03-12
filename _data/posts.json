@@ -1,0 +1,1437 @@
+[
+  {
+    "url": "https://blog.cloudant.com/2020/11/26/Repairing-a-Database-With-Conflicts.html",
+    "title": "Repairing a database with conflicts",
+    "summary": "Removing conflicted documents from a database",
+    "tags": [
+      "Node.js",
+      "Replication"
+    ]
+  },
+  {
+    "url": "https://blog.cloudant.com/2020/11/25/Migrating-a-Cloudant-Account.html",
+    "title": "Migrating a Cloudant Account",
+    "summary": "Moving from one Cloudant account to another without downtime",
+    "tags": [
+      "Replication"
+    ]
+  },
+  {
+    "url": "https://blog.cloudant.com/2020/10/09/Automated-Daily-Backups.html",
+    "title": "Automated Daily Backups",
+    "summary": "Backing up Cloudant databases to COS every night.",
+    "tags": [
+      "Node.js",
+      "Backup"
+    ]
+  },
+  {
+    "url": "https://blog.cloudant.com/2020/07/24/JSON-Schema-Validation.html",
+    "title": "JSON Schema Validation",
+    "summary": "Validating JSON schemas with CouchDB Design Documents",
+    "tags": [
+      "JavaScript",
+      "Validation"
+    ]
+  },
+  {
+    "url": "https://blog.cloudant.com/2020/07/06/Transaction-Engine-Costs.html",
+    "title": "Transaction Engine Costs",
+    "summary": "Following the incentives to get the best performance for the lowest price.",
+    "tags": [
+      "Node.js",
+      "Costs"
+    ]
+  },
+  {
+    "url": "https://blog.cloudant.com/2020/07/02/Best-Practice-for-Transaction-Engine.html",
+    "title": "Best Practice for Transaction Engine",
+    "summary": "How to get the best out of Cloudant on Transaction Engine",
+    "tags": [
+      "Node.js",
+      "Best Practice"
+    ]
+  },
+  {
+    "url": "https://blog.cloudant.com/2020/05/01/Building-A-Store-Finder.html",
+    "title": "Building a Store Finder",
+    "summary": "Using Cloudant Search to implement a 'find nearest' store finder.",
+    "tags": [
+      "Node.js",
+      "Search"
+    ]
+  },
+  {
+    "url": "https://blog.cloudant.com/2020/04/24/Optimising-Cloudant-Queries.html",
+    "title": "Optimising Cloudant Queries",
+    "summary": "Selecting the right index and query for the best performance.",
+    "tags": [
+      "Node.js",
+      "Query"
+    ]
+  },
+  {
+    "url": "https://blog.cloudant.com/2020/01/17/Fast-Data-Transfer.html",
+    "title": "Fast data transfer",
+    "summary": "A faster alternative to replication",
+    "tags": [
+      "Node.js",
+      "Replication"
+    ]
+  },
+  {
+    "url": "https://blog.cloudant.com/2019/12/13/Filtered-Replication.html",
+    "title": "Filtered Replication",
+    "summary": "Using a selector to filter documents from the changes feed.",
+    "tags": [
+      "Query",
+      "Replication"
+    ]
+  },
+  {
+    "url": "https://blog.cloudant.com/2019/12/06/Timing-HTTP-Requests-in-Nodejs.html",
+    "title": "Timing HTTP Requests in Node.js",
+    "summary": "Instrumenting your Node.js app to time HTTP requests in detail",
+    "tags": [
+      "Node.js",
+      "Timing"
+    ]
+  },
+  {
+    "url": "https://blog.cloudant.com/2019/11/08/Case-sensitivity-in-queries.html",
+    "title": "Case-sensitivity in queries",
+    "summary": "Making a case-sensitive/insensitive query, MapReduce and search.",
+    "tags": [
+      "Query",
+      "Cloudant"
+    ]
+  },
+  {
+    "url": "https://github.com/glynnbird/couchsnapshot",
+    "title": "couchsnapshot",
+    "summary": "Point-in-time backup tool for CouchDB/Cloudant",
+    "tags": [
+      "Backup",
+      "CouchDB"
+    ]
+  },
+  {
+    "url": "https://blog.cloudant.com/2019/10/25/Paginating-all_docs-and-views.html",
+    "title": "Paginating _all_docs",
+    "summary": "Three ways to page through the CouchDB primary index",
+    "tags": [
+      "Pagination",
+      "Cloudant"
+    ]
+  },
+  {
+    "url": "https://blog.cloudant.com/2019/09/16/Cloudant-Logging-with-LogDNA.html",
+    "title": "Logging with LogDNA",
+    "summary": "Logging Cloudant requests to LogDNA for monitoring and analysis",
+    "tags": [
+      "Logging",
+      "Cloudant"
+    ]
+  },
+  {
+    "url": "https://blog.cloudant.com/2019/08/16/Design-Docs-For-Life.html",
+    "title": "Design Docs For Life",
+    "summary": "Design documents in Cloudant & CouchDB",
+    "tags": [
+      "CouchDB",
+      "Cloudant"
+    ]
+  },
+  {
+    "url": "https://developer.ibm.com/articles/error-detection-and-handling-with-redis/",
+    "title": "Error detection with Redis",
+    "summary": "Configuring retry/reconnection logic with Redis",
+    "tags": [
+      "Redis"
+    ]
+  },
+  {
+    "url": "https://medium.com/@glynn_bird/replicating-from-a-query-with-couchdb-dd3ffc5c4b31",
+    "title": "Replicating from a Query",
+    "summary": "Replacing filtered CouchDB replication with query/write pattern",
+    "tags": [
+      "CouchDB",
+      "Cloudant"
+    ]
+  },
+  {
+    "url": "https://blog.cloudant.com/2019/05/31/Paging-with-Cloudant-Bookmarks.html",
+    "title": "Paging with Cloudant bookmarks",
+    "summary": "Paging through results sets using the Cloudant bookmark feature",
+    "tags": [
+      "Search",
+      "Cloudant"
+    ]
+  },
+  {
+    "url": "https://blog.cloudant.com/2019/05/24/Partitioned-Databases-with-Cloudant-Libraries.html",
+    "title": "Partitioned Databases and Node.js",
+    "summary": "Using partitioned databases with the Node.js Cloudant library",
+    "tags": [
+      "Node.js",
+      "Cloudant"
+    ]
+  },
+  {
+    "url": "https://blog.cloudant.com/2019/05/15/Scheduled-Cloudant-Backups.html",
+    "title": "Scheduled Cloudant Backups",
+    "summary": "Running regular backups of Cloudant databases using Kubernetes crons.",
+    "tags": [
+      "Kubernetes",
+      "Cloudant"
+    ]
+  },
+  {
+    "url": "https://blog.cloudant.com/2019/05/10/Optimal-Cloudant-Indexing.html",
+    "title": "Optimal Cloudant Indexing",
+    "summary": "Using fewer indexes across multiple document types.",
+    "tags": [
+      "CouchDB",
+      "Cloudant"
+    ]
+  },
+  {
+    "url": "https://blog.cloudant.com/2019/04/23/Analysing-Cloudant-Backups-with-SQL-Query.html",
+    "title": "Analyzing backups with SQL Query",
+    "summary": "Archiving Cloudant data and querying it at rest on Object Storage.",
+    "tags": [
+      "SQL",
+      "Cloudant"
+    ]
+  },
+  {
+    "url": "https://blog.cloudant.com/2019/04/08/Time-series-data-storage.html",
+    "title": "Time-series data storage",
+    "summary": "Managing ever-growing data sets with time-boxed buckets.",
+    "tags": [
+      "CouchDB",
+      "Cloudant"
+    ]
+  },
+  {
+    "url": "https://blog.cloudant.com/2019/03/29/Building-a-CRM-System.html",
+    "title": "Building a CRM System",
+    "summary": "How to build a CRM system with Cloudant's Partitioned Databases",
+    "tags": [
+      "Partitions",
+      "Cloudant"
+    ]
+  },
+  {
+    "url": "https://blog.cloudant.com/2019/03/05/Partition-Databases-Sizing.html",
+    "title": "Partitioned Databases - Sizing",
+    "summary": "Calculating the sizes of the partitions in Cloudant database",
+    "tags": [
+      "Partitions",
+      "Cloudant"
+    ]
+  },
+  {
+    "url": "https://blog.cloudant.com/2019/03/05/Partition-Databases-Data-Migration.html",
+    "title": "Partitioned Databases - Data Migration",
+    "summary": "Moving data from a non-partitioned to a partitioned database",
+    "tags": [
+      "Partitions",
+      "Cloudant"
+    ]
+  },
+  {
+    "url": "https://blog.cloudant.com/2019/03/05/Partition-Databases-Data-Design.html",
+    "title": "Partitioned Databases - Data Design",
+    "summary": "How to design data for a partitioned Cloudant database",
+    "tags": [
+      "Partitions",
+      "Cloudant"
+    ]
+  },
+  {
+    "url": "https://blog.cloudant.com/2019/03/05/Partition-Databases-Introduction.html",
+    "title": "Partitioned Databases - Introduction",
+    "summary": "Introduction to the new partitioned databases feature in Cloudant",
+    "tags": [
+      "Partitions",
+      "Cloudant"
+    ]
+  },
+  {
+    "url": "https://medium.com/datadriveninvestor/natural-language-classifcation-with-couchdb-5a5396b86207",
+    "title": "Natural Language Classification with CouchDB",
+    "summary": "Combining CouchDB with the IBM Watson Natural Language Classifier service",
+    "tags": [
+      "CouchDB",
+      "Cloudant"
+    ]
+  },
+  {
+    "url": "https://medium.com/@glynn_bird/the-count-distinct-problem-solved-by-couchdb-a2dea8d2f99a",
+    "title": "The Count Distinct Problem with CouchDB",
+    "summary": "Counting the distinct numbers of things in a collection is a memory intensive operation, but if you can accept an approximate answer there is a solution.",
+    "tags": [
+      "CouchDB",
+      "Cloudant"
+    ]
+  },
+  {
+    "url": "https://medium.com/@glynn_bird/caching-couchdb-requests-with-nginx-15dd1136e38f",
+    "title": "Caching CouchDB requests with Nginx",
+    "summary": "Caching frequently-performed searches can make your app run much faster with very little change in your code",
+    "tags": [
+      "CouchDB",
+      "Cloudant"
+    ]
+  },
+  {
+    "url": "https://medium.com/@glynn_bird/couchdb-and-the-data-warehouse-506b8ce81674",
+    "title": "CouchDB and the data warehouse",
+    "summary": "Pairing CouchDB, as a primary data store, and a data warehouse for ad-hoc queries gives you the best of both worlds.",
+    "tags": [
+      "warehouse",
+      "Cloudant"
+    ]
+  },
+  {
+    "url": "https://blog.cloudant.com/2018/10/19/Search-Analyzers.html",
+    "title": "Search Analyzers in Cloudant Search",
+    "summary": "Picking the right analyzer in your Lucene search",
+    "tags": [
+      "Cloudant",
+      "search"
+    ]
+  },
+  {
+    "url": "https://medium.com/@glynn_bird/generating-sample-data-for-a-json-data-store-1eb45604691e",
+    "title": "Generating sample data for a JSON data store",
+    "summary": "Using datamaker to generate meaningful sample data",
+    "tags": [
+      "data",
+      "datamaker"
+    ]
+  },
+  {
+    "url": "https://medium.com/@glynn_bird/time-sortable-document-ids-in-cloudant-c3af5b23d8bf",
+    "title": "Time-sortable document ids in Cloudant/CouchDB",
+    "summary": "Making a document id that is time-sortable and unique",
+    "tags": [
+      "Cloudant",
+      "id"
+    ]
+  },
+  {
+    "url": "https://medium.com/@glynn_bird/adding-cloudant-search-to-your-static-jekyll-blog-5ad76b32a902",
+    "title": "Adding Cloudant search to your static Jekyll blog",
+    "summary": "Making a static HTML website have dynamic search",
+    "tags": [
+      "Cloudant",
+      "Search"
+    ]
+  },
+  {
+    "url": "https://medium.com/ibm-watson-data-lab/cloudant-fundamentals-aggregations-9d038836ca52",
+    "title": "Cloudant Fundamentals - Aggregations",
+    "summary": "_sum-ming up the basics of Cloudant (part 10 of 10)",
+    "tags": [
+      "Cloudant",
+      "MapReduce"
+    ]
+  },
+  {
+    "url": "https://medium.com/@glynn_bird/removing-cloudant-conflicts-9359f3dc7edd",
+    "title": "Removing Cloudant conflicts",
+    "summary": "Using couchdeconflict, a command-line tool, to declutter your database",
+    "tags": [
+      "Cloudant",
+      "Conflicts"
+    ]
+  },
+  {
+    "url": "https://medium.com/@glynn_bird/introducing-couchdb-nano-7-0-0-7c53a4f9a2a9",
+    "title": "Introducing CouchDB Nano 7.0.0",
+    "summary": "The latest release of the official Node.js library for Apache CouchDB",
+    "tags": [
+      "Cloudant",
+      "Query"
+    ]
+  },
+  {
+    "url": "https://medium.com/@glynn_bird/using-cloudant-from-jupyter-notebooks-acf36428d65c",
+    "title": "Using Cloudant from Jupyter Notebooks",
+    "summary": "Analyse your app’s Cloudant data directly from an interactive notebook",
+    "tags": [
+      "Cloudant",
+      "Notebooks"
+    ]
+  },
+  {
+    "url": "https://medium.com/ibm-watson-data-lab/cloudant-fundamentals-indexing-d604fb8c21a5",
+    "title": "Cloudant Fundamentals - Indexing",
+    "summary": "Primary or secondary? Type json or text? Understanding your options (part 9 of 10)",
+    "tags": [
+      "Cloudant",
+      "Query"
+    ]
+  },
+  {
+    "url": "https://medium.com/@glynn_bird/modelling-cloudant-data-in-typescript-b95da651e9a7",
+    "title": "Modelling Cloudant data in TypeScript",
+    "summary": "Using TypeScript classes in your code and saving their JSON representation in a Cloudant database.",
+    "tags": [
+      "Cloudant",
+      "TypeScript"
+    ]
+  },
+  {
+    "url": "https://medium.com/ibm-watson-data-lab/cloudant-fundamentals-querying-in-node-js-6f6453289f15",
+    "title": "Cloudant Fundamentals - Querying in Node.js",
+    "summary": "Using Node.js to build JSON and SQL queries",
+    "tags": [
+      "Cloudant",
+      "Query"
+    ]
+  },
+  {
+    "url": "https://medium.com/ibm-watson-data-lab/cloudant-fundamentals-querying-82fdcaea1677",
+    "title": "Cloudant Fundamentals - Querying",
+    "summary": "Using Cloudant Query to slice and dice your data",
+    "tags": [
+      "Cloudant",
+      "Query"
+    ]
+  },
+  {
+    "url": "https://medium.com/@glynn_bird/optimising-cloudant-for-serverless-7ddafe33c8cd",
+    "title": "Optimising Cloudant for Serverless",
+    "summary": "Getting the best out of Cloudant using Cloud Functions",
+    "tags": [
+      "Cloudant",
+      "Serverless"
+    ]
+  },
+  {
+    "url": "http://www.se-radio.net/2018/06/se-radio-episode-327-glynn-bird-on-developer-productivity-with-open-source/",
+    "title": "Software Engineering Radio Podcast",
+    "summary": "Developer Productivity with Open Source",
+    "tags": [
+      "Open Source",
+      "Podcast"
+    ]
+  },
+  {
+    "url": "https://medium.com/ibm-watson-data-lab/cloudant-fundamentals-programmatic-crud-678b45cada06",
+    "title": "Cloudant Fundamentals - Programmatic CRUD",
+    "summary": "Reading and writing documents from Node.js",
+    "tags": [
+      "Cloudant"
+    ]
+  },
+  {
+    "url": "https://medium.com/ibm-watson-data-lab/cloudant-fundamentals-using-the-bulk-api-26ebce473838",
+    "title": "Cloudant Fundamentals - The Bulk API",
+    "summary": "Using the bulk API to write and fetch documents",
+    "tags": [
+      "Cloudant"
+    ]
+  },
+  {
+    "url": "https://medium.com/@glynn_bird/emoji-in-cloudant-documents-ba8ce80f4855",
+    "title": "Emoji in Cloudant documents",
+    "summary": "Emoji are everywhere, but can they survive in a JSON data store?",
+    "tags": [
+      "Cloudant"
+    ]
+  },
+  {
+    "url": "https://medium.com/ibm-watson-data-lab/cloudant-fundamentals-using-the-api-with-curl-4c4a4f278104",
+    "title": "Cloudant Fundamentals - The API",
+    "summary": "Using the API from the command-line",
+    "tags": [
+      "Cloudant"
+    ]
+  },
+  {
+    "url": "https://medium.com/@glynn_bird/date-formats-for-apache-couchdb-and-cloudant-1c017b7b878b",
+    "title": "Date formats for Apache CouchDB & Cloudant",
+    "summary": "Picking the best format when storing date & time in JSON",
+    "tags": [
+      "Cloudant",
+      "CouchDB"
+    ]
+  },
+  {
+    "url": "https://medium.com/ibm-watson-data-lab/cloudant-fundamentals-the-rev-token-fb0fc19a3145",
+    "title": "Cloudant Fundamentals - The rev token",
+    "summary": "It's all about revisions. And trees.",
+    "tags": [
+      "Cloudant"
+    ]
+  },
+  {
+    "url": "https://medium.com/ibm-watson-data-lab/cloudant-fundamentals-the-id-f6c7c88fbc75",
+    "title": "Cloudant Fundamentals - The _id",
+    "summary": "Unlocking the mysteries of the unique _id field.",
+    "tags": [
+      "Cloudant"
+    ]
+  },
+  {
+    "url": "https://medium.com/ibm-watson-data-lab/cloudant-fundamentals-the-document-855c5ab92051",
+    "title": "Cloudant Fundamentals - The Document",
+    "summary": "General tips on data modelling JSON documents.",
+    "tags": [
+      "Cloudant"
+    ]
+  },
+  {
+    "url": "https://medium.com/ibm-watson-data-lab/protecting-your-website-forms-with-serverless-captcha-27e3ed2794a0",
+    "title": "Protecting Your Website Forms With Serverless CAPTCHA",
+    "summary": "Using a serverless function to prevent spam form completions.",
+    "tags": [
+      "Serverless"
+    ]
+  },
+  {
+    "url": "https://medium.com/ibm-watson-data-lab/keeping-your-secrets-between-cloud-object-storage-and-your-browser-part-2-3991e39e5403",
+    "title": "Keeping Your Secrets Between Cloud Object Storage and Your Browser (Part 2)",
+    "summary": "Downloading files from Object Storage to the browser",
+    "tags": [
+      "Serverless",
+      "Object Storage"
+    ]
+  },
+  {
+    "url": "https://medium.com/ibm-watson-data-lab/keeping-your-secrets-between-cloud-object-storage-and-your-browser-part-1-68f4b83bbd38",
+    "title": "Keeping Your Secrets Between Cloud Object Storage and Your Browser (Part 1)",
+    "summary": "Uploading files to Object Storage from a browser",
+    "tags": [
+      "Serverless",
+      "Object Storage"
+    ]
+  },
+  {
+    "url": "https://medium.com/ibm-watson-data-lab/cloudant-and-couchdb-replication-with-couchreplicate-79ea6e898e6e",
+    "title": "Cloudant and CouchDB Replication with couchreplicate",
+    "summary": "A new command-line tool for managing and monitoring multiple replication jobs",
+    "github": "https://github.com/ibm-watson-data-lab/couchreplicate",
+    "npm": "https://www.npmjs.com/package/couchreplicate",
+    "tags": [
+      "Cloudant",
+      "CouchDB",
+      "Replication"
+    ]
+  },
+  {
+    "url": "https://medium.com/ibm-watson-data-lab/cloudant-couchdb-pouchdb-local-documents-b8cef869f9bd",
+    "title": "Keeping Local Documents Local in a CouchDB-Style Replication Job",
+    "summary": "For when you replicate data, but need to leave a bit of config behind",
+    "tags": [
+      "Cloudant",
+      "CouchDB"
+    ]
+  },
+  {
+    "url": "https://medium.com/ibm-watson-data-lab/sharing-variables-between-python-node-js-in-jupyter-notebooks-682a79d4bdd9",
+    "title": "Sharing variables between Python & Node.js in Jupyter notebooks",
+    "summary": "They live apart and speak different languages, but these variables hold common values",
+    "github": "https://github.com/ibm-watson-data-lab/pixiedust_node",
+    "tags": [
+      "Jupyter",
+      "Node.js",
+      "Notebooks"
+    ]
+  },
+  {
+    "url": "https://medium.com/ibm-watson-data-lab/creating-partial-cloudant-indexes-1ebf169c8e15",
+    "title": "Creating partial Cloudant indexes",
+    "summary": "Filter data before it’s indexed to get the most out of your storage",
+    "tags": [
+      "Cloudant"
+    ]
+  },
+  {
+    "url": "https://medium.com/ibm-watson-data-lab/detaching-cloudant-attachments-to-object-storage-with-serverless-functions-99b8c3c77925",
+    "title": "Detatching Cloudant attachments to Object Storage with Serverless functions",
+    "summary": "How to build a pipeline to move Cloudant attachments to object storage using IBM Cloud Functions",
+    "github": "https://github.com/ibm-watson-data-lab/detacher",
+    "tags": [
+      "Cloudant",
+      "Serverless",
+      "Object Storage"
+    ]
+  },
+  {
+    "url": "https://medium.com/ibm-watson-data-lab/using-your-own-domain-name-with-cloudant-b63699db96bd",
+    "title": "Using your own domain name with Cloudant",
+    "summary": "Secure your custom domain using serverless functions on the IBM Cloud",
+    "tags": [
+      "Cloudant",
+      "Serverless"
+    ]
+  },
+  {
+    "url": "https://medium.com/ibm-watson-data-lab/making-a-cloudant-elasticsearch-hybrid-6bf9610f4456",
+    "title": "Creating a Cloudant/Elasticsearch hybrid",
+    "summary": "Copying data from Cloudant to Elasticsearch using serverless OpenWhisk",
+    "github": "https://github.com/ibm-watson-data-lab/cloudant-es-bridge",
+    "tags": [
+      "Cloudant",
+      "Serverless",
+      "ElasticSearch"
+    ]
+  },
+  {
+    "url": "https://medium.com/ibm-watson-data-lab/mapping-the-songs-of-bruce-springsteen-bb7eccb5cfe1",
+    "title": "Mapping the songs of Bruce Springsteen",
+    "summary": "Plotting geographical references from Springsteen lyrics on a map with Pixiedust",
+    "github": "https://github.com/glynnbird/springsteen",
+    "tags": [
+      "Cloudant",
+      "Pixiedust",
+      "Geo"
+    ]
+  },
+  {
+    "url": "https://medium.com/ibm-watson-data-lab/tracking-your-cryptocurrency-portfolio-with-serverless-functions-a4e7264a6161",
+    "title": "Track your crypto-currency portfolio with serverless functions",
+    "summary": "Poll an API to get bitcoin pricing and store it in Cloudant using OpenWhisk",
+    "github": "https://github.com/glynnbird/markettrader",
+    "demo": "https://glynnbird.github.io/markettrader/public/index.html",
+    "tags": [
+      "Cloudant",
+      "Serverless",
+      "Blockchain"
+    ]
+  },
+  {
+    "url": "https://medium.com/ibm-watson-data-lab/notebooks-for-spreadsheet-users-6481c79ad980",
+    "title": "Notebooks for Spreadsheet Users",
+    "summary": "Perform spreadsheet-like tasks in notebooks with this handy guide",
+    "github": "https://github.com/ibm-watson-data-lab/pixiedust",
+    "tags": [
+      "Notebooks",
+      "Pixiedust"
+    ]
+  },
+  {
+    "url": "https://medium.com/ibm-watson-data-lab/couchimport-revisited-5921481f4c4e",
+    "title": "Couchimport revisited",
+    "summary": "Updates to couchimport to allow multiple documents per line of CSV to be created.",
+    "github": "https://github.com/glynnbird/couchimport",
+    "npm": "https://www.npmjs.com/package/couchimport",
+    "demo": null,
+    "tags": [
+      "Cloudant",
+      "CSV",
+      "ETL"
+    ]
+  },
+  {
+    "url": "https://medium.com/ibm-watson-data-lab/cloudant-envoy-serverless-edition-d68b08d536d7",
+    "title": "Cloudant Envoy - Serverless Edition",
+    "summary": "The CouchDB one-database-per-user pattern, now with less infrastructure",
+    "github": "https://github.com/glynnbird/envoy-serverless",
+    "tags": [
+      "Cloudant",
+      "Serverless",
+      "Offline First"
+    ]
+  },
+  {
+    "url": "https://medium.com/offline-camp/offline-first-drum-machine-596bc1b0642b",
+    "title": "Offline First Drum Machine",
+    "summary": "Offline-First drum machine modelled on a CR78 built with Vue.js and PouchDB",
+    "github": "https://github.com/ibm-watson-data-lab/drummer",
+    "demo": "https://ibm-watson-data-lab.github.io/drummer/",
+    "tags": [
+      "Offline First",
+      "PouchDB",
+      "Vue.js"
+    ]
+  },
+  {
+    "url": "https://medium.com/ibm-watson-data-lab/how-to-build-the-fastest-website-in-the-world-86f42c3e9817",
+    "title": "Building the fastest website in the world",
+    "summary": "From the Amp project and Google’s Lighthouse, to Offline First and service workers",
+    "demo": "https://glynnbird.com",
+    "tags": [
+      "Static",
+      "GitHub",
+      "AMP"
+    ]
+  },
+  {
+    "url": "https://medium.com/ibm-watson-data-lab/reading-the-open-source-nutrition-labels-5fa78c50a870",
+    "title": "Reading the open-source nutrition labels",
+    "summary": "The open-source projects that underpin various IBM cloud services.",
+    "tags": [
+      "Open Source"
+    ]
+  },
+  {
+    "url": "https://medium.com/ibm-watson-data-lab/custom-indexers-for-cloudant-6b7e65186db1",
+    "title": "Custom Indexers for Cloudant",
+    "summary": "Using JavaScript and Redis for problems that don’t fit Cloudant’s indexing engines.",
+    "github": "https://github.com/ibm-watson-data-lab/custom-indexes",
+    "tags": [
+      "Cloudant",
+      "Serverless",
+      "Redis",
+      "Node.js"
+    ]
+  },
+  {
+    "url": "https://medium.com/ibm-watson-data-lab/nodebooks-visualising-data-the-node-js-way-d6cb7c9d6540",
+    "title": "Nodebooks - Custom Node.js visualisations in Notebooks (part 3)",
+    "summary": "Using Node.js modules, adding HTML and images and connecting to Redis databases from a Notebook with Node.js.",
+    "github": "https://github.com/ibm-watson-data-lab/pixiedust_node",
+    "tags": [
+      "Node.js",
+      "Notebooks",
+      "Jupyter",
+      "Redis"
+    ]
+  },
+  {
+    "url": "https://medium.com/ibm-watson-data-lab/nodebooks-sharing-data-between-node-js-python-3a4acae27a02",
+    "title": "Nodebooks - Sharing data between Node.js and Python (part 2)",
+    "summary": "See how you can use Python and Node.js code in the same Jupyter notebook and share data between the two languages, using Pixiedust to visualise the results",
+    "github": "https://github.com/ibm-watson-data-lab/pixiedust_node",
+    "tags": [
+      "Node.js",
+      "Notebooks",
+      "Jupyter"
+    ]
+  },
+  {
+    "url": "https://medium.com/ibm-watson-data-lab/nodebooks-node-js-data-science-notebooks-aa140bea21ba",
+    "title": "Nodebooks - Node.js in Jupyter notebooks (part 1)",
+    "summary": "Developers can use notebooks too, for prototyping, data exploration and visualisation of results. If you're a Node.js developer, check out pixiedust_node for Jupyter notebooks",
+    "github": "https://github.com/ibm-watson-data-lab/pixiedust_node",
+    "tags": [
+      "Node.js",
+      "Notebooks",
+      "Jupyter"
+    ]
+  },
+  {
+    "url": "https://medium.com/ibm-watson-data-lab/open-source-for-fun-learning-and-kudos-4495348cd3ad",
+    "title": "Open Source for Fun, Learning, and Kudos",
+    "summary": "Reflecting on my career, and advice on getting started",
+    "tags": [
+      "Open Source",
+      "Career"
+    ]
+  },
+  {
+    "url": "https://medium.com/ibm-watson-data-lab/custom-cloudant-replication-d0753284d834",
+    "title": "Custom Cloudant Replication",
+    "summary": "Use OpenWhisk to replicate a Cloudant database into many sub-databases, ready for replication. Read this worked example, using a bus timetabling display as a demo.",
+    "tags": [
+      "Cloudant",
+      "Serverless",
+      "Replication"
+    ]
+  },
+  {
+    "url": "https://medium.com/openwhisk/serverless-autocomplete-with-openwhisk-49b9fec1eaab",
+    "title": "Serverless Autocomplete",
+    "summary": "Autocomplete is an excellent use of serverless technology because the autocomplete data set can reside in the same container as your API code. Find out how.",
+    "github": "https://github.com/ibm-watson-data-lab/serverless-autocomplete",
+    "npm": "https://www.npmjs.com/package/serverless-autocomplete",
+    "tags": [
+      "Serverless"
+    ]
+  },
+  {
+    "url": "https://medium.com/ibm-watson-data-lab/querying-your-pouchdb-database-with-sql-c2e43c21b7ce",
+    "title": "Querying Your PouchDB Database with SQL",
+    "summary": "You can now query your PouchDB databases with SQL using the pouchdb-silverlining plugin.",
+    "github": "https://github.com/ibm-watson-data-lab/pouchdb-silverlining",
+    "npm": "https://www.npmjs.com/package/pouchdb-silverlining",
+    "tags": [
+      "PouchDB",
+      "SQL"
+    ]
+  },
+  {
+    "url": "https://medium.com/ibm-watson-data-lab/couchdb-writes-piecemeal-bulk-or-batch-8bf8ef9314e0",
+    "title": "CouchDB Writes - Piecemeal, Bulk, or Batch?",
+    "summary": "There are several ways of writing data to Cloudant, this article explores the trade-offs between each approach.",
+    "tags": [
+      "CouchDB",
+      "Cloudant"
+    ]
+  },
+  {
+    "url": "https://medium.com/ibm-watson-data-lab/querying-your-cloudant-database-with-sql-bd670ee86291",
+    "title": "Querying Cloudant with SQL",
+    "summary": "Cloudant doesn't natively support SQL queries, but now the cloudant-quickstart library allows SQL queries to be converted into Mango-JSON which Cloudant does understand.",
+    "github": "https://github.com/ibm-watson-data-lab/nodejs-cloudant-quickstart",
+    "npm": "https://www.npmjs.com/package/cloudant-quickstart",
+    "tags": [
+      "Cloudant",
+      "SQL"
+    ]
+  },
+  {
+    "url": "https://medium.com/ibm-watson-data-lab/hacking-vs-prototyping-vs-production-code-c582241310ed",
+    "title": "Hacking vs. Prototyping vs. Production Code",
+    "summary": "Exploring the difference between knocking up a quick demo to producing prodction-ready code that others can build on. It uses the example of couchbackup, which went from hack to production this year.",
+    "github": "https://github.com/cloudant/couchbackup",
+    "npm": "https://www.npmjs.com/package/@cloudant/couchbackup",
+    "tags": [
+      "Cloudant",
+      "Backup"
+    ]
+  },
+  {
+    "url": "https://medium.com/ibm-watson-data-lab/who-limits-the-rate-limiter-68013263f9d2",
+    "title": "API Rate-limiting with qrate",
+    "summary": "Avoid 429 error codes by rate limiting the API calls you make to third-party API services. qrate is a drop-in replacement for async.queue. Find out how easy it is to use.",
+    "github": "https://github.com/glynnbird/qrate",
+    "npm": "https://www.npmjs.com/package/qrate",
+    "tags": [
+      "Node.js",
+      "API",
+      "Queue"
+    ]
+  },
+  {
+    "url": "https://medium.com/ibm-watson-data-lab/choosing-a-cloudant-library-d14c06f3d714",
+    "title": "Choosing a Cloudant Library",
+    "summary": "This articles the choices you have for Node.js libraries that talk to Apache CouchDB or Cloudant and the levels of abstraction they use.",
+    "tags": [
+      "Cloudant",
+      "Node.js"
+    ]
+  },
+  {
+    "url": "https://medium.com/ibm-watson-data-lab/diff-your-databases-with-couchdiff-f69943f9dc97",
+    "title": "Diff your database",
+    "summary": "Introducing couchdiff, a tool to tell you the difference between two CouchDB databases.",
+    "github": "https://github.com/glynnbird/couchdiff",
+    "npm": "https://www.npmjs.com/package/couchdiff",
+    "tags": [
+      "CouchDB",
+      "Cloudant"
+    ]
+  },
+  {
+    "url": "https://medium.com/ibm-watson-data-lab/pouchdb-the-swiss-army-knife-of-databases-c5429f3db21f",
+    "title": "PouchDB - the Swiss army knife of databases",
+    "summary": "How I love PouchDB. Let me count the ways.",
+    "tags": [
+      "PouchDB"
+    ]
+  },
+  {
+    "url": "https://medium.com/ibm-watson-data-lab/create-a-serverless-watson-powered-chatbot-for-your-business-4e5c1637ec54\"",
+    "title": "Serverless, Watson-powered chatbot for your business",
+    "summary": "Create a concierge service for your small business using Watson and OpenWhisk",
+    "github": "https://github.com/ibm-cds-labs/concierge",
+    "npm": "https://www.npmjs.com/package/concierge-chatbot",
+    "demo": "https://glynnbird.github.io/pretendhotel",
+    "tags": [
+      "Serverless",
+      "Watson",
+      "Node.js"
+    ]
+  },
+  {
+    "url": "https://medium.com/ibm-watson-data-lab/moving-data-from-documentdb-to-cloudant-or-couchdb-6c3d16414fc6",
+    "title": "Moving data from DocumentDB to Cloudant",
+    "summary": "Export data from Azure's DocumentDB to CouchDB or Cloudant",
+    "github": "https://github.com/glynnbird/documentdbexport",
+    "npm": "https://www.npmjs.com/package/documentdbexport",
+    "tags": [
+      "DocumentDB",
+      "CouchDB",
+      "Cloudant"
+    ]
+  },
+  {
+    "url": "https://medium.com/ibm-watson-data-lab/add-custom-alexa-skills-with-openwhisk-and-cloudant-4e8aa0c3e525",
+    "title": "Alexa skills with Cloudant and OpenWhisk",
+    "summary": "Create your own Amazon Alexa skills using OpenWhisk.",
+    "tags": [
+      "Serverless",
+      "Cloudant"
+    ]
+  },
+  {
+    "url": "https://medium.com/ibm-watson-data-lab/moving-data-from-dynamodb-to-cloudant-or-couchdb-4a4110a4e2d9",
+    "title": "Moving DynamoDB data to Cloudant",
+    "summary": "Export Amazon DynamoDB data to CSV then import to Cloudant",
+    "github": "https://github.com/glynnbird/dynamodbexport",
+    "npm": "https://www.npmjs.com/package/dynamodbexport",
+    "demo": null,
+    "tags": [
+      "DynamoDB",
+      "CouchDB",
+      "Cloudant"
+    ]
+  },
+  {
+    "url": "https://medium.com/ibm-watson-data-lab/analysing-cloudant-json-in-runkit-javascript-notebooks-387be1f5500b",
+    "title": "Analysing Cloudant data in notebooks",
+    "summary": "Use Runkit to analyse Cloudant data using JavaScript",
+    "demo": "https://runkit.com/glynnbird/58999006edb02900144c1163",
+    "tags": [
+      "Notebooks",
+      "Cloudant"
+    ]
+  },
+  {
+    "url": "https://medium.com/ibm-watson-data-lab/how-i-used-serverless-infrastructure-to-build-a-large-scale-petition-system-2779161c4c68",
+    "title": "Scalable online-petition with OpenWhisk",
+    "summary": "Building scalable serverless systems with OpenWhisk and Cloudant",
+    "demo": "https://ibm-cds-labs.github.io/online-petition/",
+    "tags": [
+      "Cloudant",
+      "Serverless",
+      "Node.js"
+    ]
+  },
+  {
+    "url": "https://medium.com/ibm-watson-data-lab/installing-web-apps-with-electron-7a8fa1b12744",
+    "title": "Installing web apps with Electron",
+    "summary": "Distribute your web apps as installable applications on Mac, Windows & Linux.",
+    "tags": [
+      "Cloudant",
+      "Electron"
+    ]
+  },
+  {
+    "url": "https://medium.com/ibm-watson-data-lab/environment-variables-or-keeping-your-secrets-secret-in-a-node-js-app-99019dfff716",
+    "title": "Keeping secrets secret in Node.js",
+    "summary": "Tips on how to keep your API keys secret in Node.js applications",
+    "tags": [
+      "Node.js"
+    ]
+  },
+  {
+    "url": "https://medium.com/ibm-watson-data-lab/web-application-state-à-la-dogfight-1983-641653c5cb3d",
+    "title": "Dogfight - making retro game multiplayer",
+    "summary": "Turning a 1983 BBC Micro game into a web-base mulitplayer game.",
+    "github": "https://github.com/ibm-cds-labs/dogfight",
+    "npm": null,
+    "demo": null,
+    "tags": [
+      "RethinkDB",
+      "Node.js"
+    ]
+  },
+  {
+    "url": "https://medium.com/ibm-watson-data-lab/cloudant-and-node-js-made-simple-with-the-silverlining-library-7deb7601448c",
+    "title": "Cloudant and Node.js Made Simple with the cloudant-quickstart (formerly silverlining) Library",
+    "summary": "A Cloudant and Node.js Made Simple with the cloudant-quickstart (formerly silverlining) Library",
+    "github": "https://github.com/ibm-watson-data-lab/nodejs-cloudant-quickstart",
+    "npm": "https://www.npmjs.com/package/cloudant-quickstart",
+    "tags": [
+      "Cloudant",
+      "Node.js"
+    ]
+  },
+  {
+    "url": "https://medium.com/ibm-watson-data-lab/create-a-custom-domain-for-cloudant-using-cloudflare-e32f11b33967",
+    "title": "Creating a custom domain for Cloudant",
+    "summary": "Using Cloudflare in front of Cloudant allows you to have a custom domain, caching and more",
+    "tags": [
+      "Cloudant",
+      "Cloudflare"
+    ]
+  },
+  {
+    "url": "https://developer.ibm.com/clouddataservices/2016/11/22/10602/",
+    "title": "Caching Cloudant Requests with cachemachine",
+    "summary": "Take the load off your back-end API by adding a simple Redis caching layer in front.",
+    "github": "https://github.com/glynnbird/cachemachine",
+    "npm": "https://www.npmjs.com/package/cachemachine",
+    "tags": [
+      "Redis",
+      "Cloudant",
+      "Cache"
+    ]
+  },
+  {
+    "url": "https://developer.ibm.com/clouddataservices/2016/11/16/blazingly-fast-geospatial-queries-with-redis/",
+    "title": "Blazingly Fast Geospatial Queries with Redis",
+    "summary": "Import geospatial data into Redis using Python and make super fast 'find nearest' queries",
+    "tags": [
+      "Redis",
+      "Geo",
+      "Python"
+    ]
+  },
+  {
+    "url": "https://developer.ibm.com/clouddataservices/2016/11/10/enhanced-cloudant-search-with-watson-alchemy/",
+    "title": "Enhanced Cloudant Search with Watson",
+    "summary": "Add structure to your unstructured data with Watson Alchemy APIs for a better search experience",
+    "github": "https://github.com/glynnbird/alchemy-news",
+    "demo": "https://glynnbird.github.io/alchemy-news",
+    "tags": [
+      "Cloudant",
+      "Watson",
+      "Search"
+    ]
+  },
+  {
+    "url": "https://developer.ibm.com/clouddataservices/2016/09/23/cloudant-nodejs-library-v1dot5/",
+    "title": "Plug into the Cloudant Node.js Library",
+    "summary": "Now includes plugins for 429 retries, Promises and your custom designs.",
+    "github": "https://github.com/cloudant/nodejs-cloudant",
+    "npm": "https://www.npmjs.com/package/@cloudant/cloudant",
+    "tags": [
+      "Node.js",
+      "Cloudant"
+    ]
+  },
+  {
+    "url": "https://developer.ibm.com/clouddataservices/2016/09/19/import-json-nosqlimport/",
+    "title": "NoSQLImport",
+    "summary": "Import CSV data into Cloudant/CouchDB, MongoDB or ElasticSearch",
+    "github": "https://github.com/glynnbird/nosqlimport",
+    "npm": "https://www.npmjs.com/package/nosqlimport",
+    "tags": [
+      "Cloudant",
+      "CSV",
+      "MongoDB",
+      "ElasticSearch"
+    ]
+  },
+  {
+    "url": "https://developer.ibm.com/clouddataservices/2016/11/08/building-offline-first-progressive-web-apps/",
+    "title": "Building Offline-First, Progressive Web Apps",
+    "summary": "Make web apps that sync offline, are installable on mobile phones and render on all devices.",
+    "tags": [
+      "PWA",
+      "Cloudant",
+      "PouchDB"
+    ]
+  },
+  {
+    "url": "https://medium.com/offline-camp/scaling-offline-first-with-envoy-ada42d130cfc",
+    "title": "Scaling Offline First with Envoy",
+    "summary": "Cloudant Envoy allows offline-first apps to maintain the 1-database-per-user model, while storing all the data in one database on the server side.",
+    "github": "https://github.com/cloudant-labs/envoy",
+    "npm": "https://www.npmjs.com/package/cloudant-envoy",
+    "tags": [
+      "Cloudant",
+      "Node.js",
+      "Offline First"
+    ]
+  },
+  {
+    "url": "https://developer.ibm.com/clouddataservices/2016/05/31/introducing-the-simple-autocomplete-service/",
+    "title": "Simple Autocomplete Service",
+    "summary": "Turn a list of strings into a performant autocomplete API service.",
+    "github": "https://github.com/ibm-cds-labs/simple-autocomplete-service",
+    "tags": [
+      "Redis",
+      "Node.js"
+    ]
+  },
+  {
+    "url": "https://developer.ibm.com/clouddataservices/2016/05/11/chrome-extensions-pouchdb/",
+    "title": "Chrome Extensions with PouchDB",
+    "summary": "Create offline-first Google Chrome extensions that can sync with Cloudant/CouchDB.",
+    "github": "https://github.com/glynnbird/linkshare\"",
+    "tags": [
+      "Offline First",
+      "Chrome",
+      "PouchDB"
+    ]
+  },
+  {
+    "url": "https://developer.ibm.com/clouddataservices/2016/04/27/introducing-openwhisk-microservices-made-easy/",
+    "title": "OpenWhisk Microservices",
+    "summary": "Create microservices simply with OpenWhisk for event-driven computing.",
+    "tags": [
+      "Serverless",
+      "Slack",
+      "Cloudant"
+    ]
+  },
+  {
+    "url": "https://developer.ibm.com/clouddataservices/2016/05/05/offline-first-qr-code-badge-scanner/",
+    "title": "Offline First QR Code scanner",
+    "summary": "An offline-first, web-based QR-code scanning app that syncs to Cloudant.",
+    "github": "https://github.com/glynnbird/badgescanner",
+    "tags": [
+      "PouchDB",
+      "Offline First"
+    ]
+  },
+  {
+    "url": "https://developer.ibm.com/clouddataservices/2016/04/19/winter-is-coming-importing-game-of-thrones-data-into-cloudant-with-the-simple-search-service/",
+    "title": "Searchable Game of Thrones",
+    "summary": "Importing Game of Thrones character data into the Simple Search Service",
+    "tags": [
+      "Cloudant",
+      "Search"
+    ]
+  },
+  {
+    "url": "https://developer.ibm.com/clouddataservices/2016/03/31/multiplying-microservices/",
+    "title": "Multiplying Microservices",
+    "summary": "Adding simple metrics aggregation microservice for metrics collection.",
+    "github": "https://github.com/ibm-cds-labs/metrics-collector-aggregation-microservice",
+    "tags": [
+      "Microservices",
+      "Node.js"
+    ]
+  },
+  {
+    "url": "https://developer.ibm.com/clouddataservices/2016/03/22/simple-couchdb-and-cloudant-backup/",
+    "title": "Simple CouchDB & Cloudant backup",
+    "summary": "Three ways to backup your Cloudant or CouchDB databases.",
+    "github": "https://github.com/cloudant/couchbackup",
+    "npm": "https://www.npmjs.com/package/@cloudant/couchbackup",
+    "tags": [
+      "Cloudant",
+      "CouchDB"
+    ]
+  },
+  {
+    "url": "https://www.compose.io/articles/deploying-the-metrics-collector-microservice-on-compose/",
+    "title": "Deploying the metrics collector microservice on Compose",
+    "summary": "Using Compose and IBM Cloud to deploy the Metrics Collector Microservice",
+    "tags": [
+      "Microservices",
+      "MongoDB",
+      "RabbitMQ"
+    ]
+  },
+  {
+    "url": "https://developer.ibm.com/clouddataservices/2016/03/03/simple-metrics-collector-microservices-edition/",
+    "title": "Metrics Collector Microservice",
+    "summary": "Website and app metrics collector as Microservice using Redis/RabbitMQ/Kafka and writing to Cloudant/MongoDB/ElasticSearch",
+    "github": "https://github.com/ibm-cds-labs/metrics-collector-microservice",
+    "tags": [
+      "Microservices",
+      "Queue",
+      "PubSub"
+    ]
+  },
+  {
+    "url": "https://developer.ibm.com/clouddataservices/2016/02/26/running-pouchdb-in-a-web-worker/",
+    "title": "PouchDB in a Web Worker",
+    "summary": "PouchDB gives you offline-first storage in a browser. It can also run in a Web Worker to improve performance.",
+    "tags": [
+      "PouchDB"
+    ]
+  },
+  {
+    "url": "Logshare",
+    "title": "Log sharing service",
+    "summary": "Simple log sharing utility built with Node.js, Redis and Cloudant.",
+    "github": "https://github.com/glynnbird/logshare",
+    "npm": "https://www.npmjs.com/package/logshare",
+    "tags": [
+      "Redis",
+      "Cloudant",
+      "Node.js"
+    ]
+  },
+  {
+    "url": "https://developer.ibm.com/clouddataservices/2016/01/21/introducing-simple-faceted-search-service/",
+    "title": "Simple Search Service",
+    "summary": "Created a faceted search engine by uploading a CSV file.",
+    "tags": [
+      "Cloudant",
+      "Search",
+      "CSV"
+    ]
+  },
+  {
+    "url": "https://developer.ibm.com/clouddataservices/2015/12/03/get-in-line-an-intro-to-queues-and-pubsub/",
+    "title": "Introduction to Queues",
+    "summary": "A look at the differences between the various queue and broker technologies, listed here in order of increasing complexity, resilience, and capacity",
+    "tags": [
+      "Redis",
+      "Kafka",
+      "RabbitMQ",
+      "Microservices"
+    ]
+  },
+  {
+    "url": "https://developer.ibm.com/clouddataservices/2015/11/11/scale-a-web-app-with-microservices-and-message-hub/",
+    "title": "Scaling Web Apps",
+    "summary": "How to use Message Hub (Kafka) or RabbitMQ to scale up a busy website",
+    "tags": [
+      "Microservices",
+      "Kafka",
+      "RabbitMQ"
+    ]
+  },
+  {
+    "url": "https://github.com/glynnbird/volt",
+    "title": "Volt",
+    "summary": "Password vault as a Chrome Extension using PouchDB",
+    "github": "https://github.com/glynnbird/volt",
+    "tags": [
+      "PouchDB"
+    ]
+  },
+  {
+    "url": "https://developer.ibm.com/clouddataservices/2015/10/19/command-line-tools-for-cloudant-and-couchdb/",
+    "title": "Command-line tools for CouchDB",
+    "summary": "Backup, design doc migration, shells and JSON parsers on the command-line.",
+    "tags": [
+      "CouchDB",
+      "Cloudant"
+    ]
+  },
+  {
+    "url": "https://developer.ibm.com/clouddataservices/2015/10/07/greenkeeper-io-talks-about-node-js-dependency-tracking/\"",
+    "title": "Greenkeeper interview",
+    "summary": "Interview with the Greenkeeper.io creators about their Node.js change management tool.",
+    "tags": [
+      "Cloudant"
+    ]
+  },
+  {
+    "url": "https://developer.ibm.com/clouddataservices/2015/09/22/export-cloudant-json-as-csv-rss-or-ical/",
+    "title": "Export Cloudant to CSS, RSS and iCal",
+    "summary": "How to turn Cloudant JSON into other data formats directly from Cloudant",
+    "tags": [
+      "CSV",
+      "Cloudant"
+    ]
+  },
+  {
+    "url": "https://developer.ibm.com/clouddataservices/2015/08/13/writing-data-directly-cloudant-slack/",
+    "title": "Slack to Cloudant",
+    "summary": "Writing data directly to Slack from Cloudant",
+    "tags": [
+      "Slack",
+      "Cloudant"
+    ]
+  },
+  {
+    "url": "https://github.com/glynnbird/proforma",
+    "title": "Proforma",
+    "summary": "Offline first data capture",
+    "tags": [
+      "Offline First",
+      "PouchDB"
+    ]
+  },
+  {
+    "url": "http://glynnbird.github.io/gutenberg/\"",
+    "title": "Gutenberg",
+    "summary": "Offline-first e-book reader built with PouchDB",
+    "github": "https://github.com/glynnbird/gutenberg",
+    "tags": [
+      "Offline First",
+      "PouchDB"
+    ]
+  },
+  {
+    "url": "https://cloudant.com/blog/defensive-coding-in-mapindex-functions/",
+    "title": "Defensive coding in MapReduce",
+    "summary": "Avoid common pitfalls in writing MapReduce functions with Cloudant.",
+    "tags": [
+      "Cloudant",
+      "JavaScript"
+    ]
+  },
+  {
+    "url": "https://cloudant.com/blog/turning-a-spreadsheet-into-a-faceted-search-engine-with-cloudant/",
+    "title": "Spreadsheet to search",
+    "summary": "Turning your structured data into a faceted search engine is easy with Cloudant Search.",
+    "demo": "http://glynnbird.github.io/guitars/\"",
+    "tags": [
+      "Cloudant",
+      "Search"
+    ]
+  },
+  {
+    "url": "https://cloudant.com/blog/cloudant-query-grows-up-to-handle-ad-hoc-queries/",
+    "title": "Cloudant Query Grows Up",
+    "summary": "A run-through of the features of Cloudant Query 'text' indexes for performing ad-hoc searches.",
+    "tags": [
+      "Cloudant"
+    ]
+  },
+  {
+    "url": "https://console.bluemix.net/docs/services/Cloudant/guides/replication_guide.html#replication",
+    "title": "Replication guide",
+    "summary": "A beginners guide to replication",
+    "tags": [
+      "Cloudant",
+      "Replication"
+    ]
+  },
+  {
+    "url": "https://console.bluemix.net/docs/services/Cloudant/guides/design_document_management.html#design-document-management",
+    "title": "Design Document Management",
+    "summary": "A guide to CouchDB/Cloudant design documents, how they work and how to manage change control.",
+    "tags": [
+      "Cloudant"
+    ]
+  },
+  {
+    "url": "https://developer.ibm.com/dwblog/2015/cloudant-raspberry-pis/",
+    "title": "Building a Cloudant cluster from Raspberry Pis",
+    "summary": "A guide to building a distributed database with 13 Raspberry Pis.",
+    "tags": [
+      "Cloudant",
+      "Pi"
+    ]
+  },
+  {
+    "url": "https://github.com/glynnbird/flasher",
+    "title": "Flasher",
+    "summary": "LED flashing utility for Raspberry Pi",
+    "tags": [
+      "Pi"
+    ]
+  },
+  {
+    "url": "https://developer.ibm.com/dwblog/2015/cloudant-document-conflicts-three/",
+    "title": "A guide to Cloudant document conflicts - Part Three",
+    "summary": "The third part of triology on CouchDB document conflicts, how they work and how to resolve and avoid them",
+    "tags": [
+      "Cloudant",
+      "CouchDB"
+    ]
+  },
+  {
+    "url": "https://developer.ibm.com/dwblog/2015/cloudant-document-conflicts-two/",
+    "title": "A guide to Cloudant document conflicts - Part Two",
+    "summary": "The second part of triology on CouchDB document conflicts, how they work and how to resolve and avoid them",
+    "tags": [
+      "Cloudant",
+      "CouchDB"
+    ]
+  },
+  {
+    "url": "https://developer.ibm.com/dwblog/2015/cloudant-document-conflicts-one/",
+    "title": "A guide to Cloudant document conflicts - Part One",
+    "summary": "The first part of triology on CouchDB document conflicts, how they work and how to resolve and avoid them",
+    "tags": [
+      "Cloudant",
+      "CouchDB"
+    ]
+  },
+  {
+    "url": "https://github.com/glynnbird/anagrammer",
+    "title": "Anagrammer",
+    "summary": "Anagram solver built with a Cloudant's and a custom MapReduce index.",
+    "tags": [
+      "Cloudant"
+    ]
+  },
+  {
+    "url": "https://github.com/glynnbird/md",
+    "title": "md",
+    "summary": "Offline first markdown word-processor",
+    "tags": [
+      "Offline First",
+      "PouchDB"
+    ]
+  },
+  {
+    "url": "https://github.com/glynnbird/xword",
+    "title": "Xword",
+    "summary": "Collaborative crossword tool",
+    "tags": [
+      "PouchDB"
+    ]
+  },
+  {
+    "url": "https://github.com/glynnbird/celsius",
+    "title": "Celcius",
+    "summary": "IoT demo with Raspberry Pi & Cloudant",
+    "tags": [
+      "Cloudant"
+    ]
+  },
+  {
+    "url": "https://github.com/glynnbird/geoquiz",
+    "title": "GeoQuiz",
+    "summary": "Client-side programming demo using jQuery & Cloudant.",
+    "tags": [
+      "Cloudant"
+    ]
+  },
+  {
+    "url": "https://github.com/glynnbird/proxee",
+    "title": "Proxee",
+    "summary": "Programmable HTTP proxy that uses CouchDB/Cloudant",
+    "tags": [
+      "Cloudant"
+    ]
+  },
+  {
+    "url": "https://www.npmjs.com/package/yub",
+    "title": "Yub",
+    "summary": "Node.js library for interaction with Yubico's API",
+    "github": "https://github.com/glynnbird/yub",
+    "npm": "https://www.npmjs.com/package/yub",
+    "tags": [
+      "Yubico",
+      "Node.js"
+    ]
+  },
+  {
+    "url": "https://www.npmjs.com/package/couchmigrate\"",
+    "title": "couchmigrate",
+    "summary": "A CouchDB design document migration tool that allows you to switch in a new design doc and wait for it build before putting it live.",
+    "github": "https://github.com/glynnbird/couchmigrate",
+    "npm": "https://www.npmjs.com/package/couchmigrate\"",
+    "tags": [
+      "Cloudant",
+      "CouchDB"
+    ]
+  },
+  {
+    "url": "https://www.npmjs.org/package/couchimport",
+    "title": "couchimport",
+    "summary": "A simple CSV import for CouchDB/Cloudant. Import structured text into NoSQL from the command line.",
+    "github": "https://github.com/glynnbird/couchimport",
+    "npm": "https://www.npmjs.org/package/couchimport",
+    "tags": [
+      "Cloudant",
+      "CouchDB",
+      "CSV"
+    ]
+  },
+  {
+    "url": "https://www.npmjs.com/package/couchshell",
+    "title": "couchshell",
+    "summary": "CouchDB/Cloudant command-line shell. Enables you to interact with CouchDB as if it were a Unix file system.",
+    "github": "https://github.com/glynnbird/couchshell",
+    "npm": "https://www.npmjs.com/package/couchshell",
+    "tags": [
+      "Cloudant",
+      "CouchDB"
+    ]
+  },
+  {
+    "url": "https://www.npmjs.org/package/ccurl",
+    "title": "ccurl",
+    "summary": "CouchDB/Cloudant command-line helper. Enables you to interact with Cloudant's HTTP API from the terminal without typing domain names, protocols, passwords, content-types etc.",
+    "github": "https://github.com/glynnbird/ccurl",
+    "npm": "https://www.npmjs.org/package/ccurl",
+    "tags": [
+      "Cloudant",
+      "CouchDB"
+    ]
+  },
+  {
+    "url": "https://github.com/glynnbird/birdreader",
+    "title": "BirdReader",
+    "summary": "Host-it-yourself RSS Reader built with Node.js & Cloudant. Host on Cloud, PC or Raspberry Pi.",
+    "github": "https://github.com/glynnbird/birdreader",
+    "tags": [
+      "CouchDB",
+      "RSS",
+      "Node.js"
+    ]
+  }
+]
