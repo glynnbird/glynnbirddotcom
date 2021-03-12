@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - 14
+script: npx @11ty/eleventy
+deploy:
+  local-dir: _site
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure
+  keep-history: true
+  on:
+    branch: master

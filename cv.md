@@ -1,20 +1,24 @@
 ---
-  layout: minimal
+  layout: homepage.njk
   title: Curriculum Vitae
 ---
 
 ## Personal Details
 
+|                   |                    |
+| ----------------- | ------------------ |
 | **Name**          | Glynn Robert Bird  |
 | **Date of Birth** | 18th November 1969 |
 | **Gender**        | Male               |
 | **Marital Status**| Married            |
 | **Address**       | Middlesbrough, UK  |
-| **Email**         | {{ site.email }}   |
-| **Twitter**       | {{ site.twitter }} |
+| **Email**         | {{ siteEmail }}   |
+| **Twitter**       | {{ siteTwitter }} |
 
 ## Education
 
+|                   |                    |
+| ----------------- | ------------------ |
 | **Nunthorpe Comprehensive**     | 9 'O' levels |
 | **South Park 6th Form College** | 4 'A' levels |
 | **University of Teesside**      | BSc (hons) Business Computing 1st Class |
@@ -58,7 +62,7 @@ Developer advocate for IBM Cloud producing [blog posts](https://medium.com/@glyn
 - Programming - C, C++, Objective-C, PHP, Forth, Java, Javascript, Node.js, Python, Solidity
 - Databases - MySQL, Postgresql, MS-SQL, Redis, MongoDB, Apache CouchDB, BerkeleyDB
 - Development Team Management - Managing development teams including testing, design and database in short, agile sprints (2-3 days).
-- Written communication - My [written output]((https://medium.com/@glynn_bird/latest)) is proflific but clear and thorough with an emphasis on explaining difficult topics in digestable terms, without sacrificing detail.
+- Written communication - My [written output](https://medium.com/@glynn_bird/latest) is proflific but clear and thorough with an emphasis on explaining difficult topics in digestable terms, without sacrificing detail.
 - Serverless technology - Apache OpenWhisk & AWS Lambda using Node.js. 
 - Smart Contracts on the Ethereum blockchain - Writing contract code in Solidity. I have presented talks and workshops on Ethereum and blockchain technologies.
 - Open source - Many [open source](https://github.com/glynnbird) software contributions. Apache contributor and producer of command-line utilites, libraries and demos, many published on [npm](https://www.npmjs.com/~glynnbird).
