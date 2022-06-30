@@ -6,10 +6,13 @@ body {
 .card-header {
   background: #444
 }
-.btn-link, .btn-link:hover {
+
+.btn-link,
+.btn-link:hover {
   color: #ddd;
   font-weight: bold
 }
+
 .card-body {
   background: #555
 }
@@ -17,9 +20,11 @@ body {
 .jumbotron {
   background: #555
 }
+
 hr {
   background: #888
 }
+
 .credits {
   font-size: 12px
 }

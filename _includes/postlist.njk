@@ -1,8 +1,7 @@
 <h2>Posts</h2>
-<ul>
+<dl>
 {% for post in posts %}
-  <li class="post">
-    <a href="{{ post.url | url }}">{{ post.title }}</a> - {{ post.summary }}
-  </li>
+  <dt><a href="{{ post.url | url }}">{{ post.title }}</a></dt>
+  <dd>{{ post.summary }}</dd>
 {% endfor %}
-</ul>
+</dl>

@@ -1,5 +1,64 @@
 [
   {
+    "url": "https://blog.cloudant.com/2022/06/28/Simple-Geospatial-Queries.html",
+    "title": "Simple Geospatial Queries",
+    "summary": "Finding data within a rectangle or nearest to a point",
+    "tags": [
+      "Geospatial"
+    ]
+  },
+  {
+    "url": "https://blog.cloudant.com/2022/01/21/Using-the-Cloudant-changes-feed.html",
+    "title": "Using the Changes Feed",
+    "summary": "Best practices and pitfalls",
+    "tags": [
+      "Changes"
+    ]
+  },
+  {
+    "url": "https://blog.cloudant.com/2022/01/14/Migrating-from-Cloudant-TXE-to-Standard.html",
+    "title": "Migrating from TXE",
+    "summary": "Switching from Cloudant TXE to Cloudant Standard",
+    "tags": [
+      "TXE"
+    ]
+  },
+  {
+    "url": "https://blog.cloudant.com/2021/11/12/Projection.html",
+    "title": "Projection",
+    "summary": "Storing data in a Cloudant index for faster retrieval",
+    "tags": [
+      "Indexing",
+      "Querying"
+    ]
+  },
+  {
+    "url": "https://blog.cloudant.com/2021/08/16/Code-Engine-and-Cloudant.html",
+    "title": "Code Engine & Cloudant",
+    "summary": "Using IBM's Code Engine platform with the Cloudant database",
+    "tags": [
+      "Serverless"
+    ]
+  },
+  {
+    "url": "https://blog.cloudant.com/2021/05/21/Removing-Tombstones.html",
+    "title": "Removing Tombstones",
+    "summary": "Purging deleted documents from Cloudant/CouchDB databases",
+    "tags": [
+      "Tombstones",
+      "Deletions"
+    ]
+  },
+  {
+    "url": "https://blog.cloudant.com/2021/02/08/GitHub-Webhooks-and-Cloud-Functions.html",
+    "title": "GitHub Webhooks and Cloud Functions",
+    "summary": "Using GitHub as a trigger for Cloudant data",
+    "tags": [
+      "GitHub",
+      "Serverless"
+    ]
+  },
+  {
     "url": "https://blog.cloudant.com/2020/11/26/Repairing-a-Database-With-Conflicts.html",
     "title": "Repairing a database with conflicts",
     "summary": "Removing conflicted documents from a database",
