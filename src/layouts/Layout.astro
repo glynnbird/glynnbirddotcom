@@ -1,0 +1,46 @@
+---
+export interface Props {
+	title: string;
+	description: string;
+}
+
+const { title } = Astro.props;
+
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+		<meta charset="utf-8">
+		<title>{ title }</title>
+		<meta name="description" content="{ description }"/>
+		<link rel="canonical" href="https://glynnbird.com/">
+		<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1" />
+  </head>  
+  <body>
+    <slot />
+  </body>
+</html>
+
+<style is:global>
+body {
+	font:300 1em courier;
+	padding:50px;
+}
+a:visited, a:link, a:hover {
+	color: black
+}
+h3{
+  font:300 2.0em courier
+}
+h2{
+  font:300 2.2em courier
+}
+h1{
+  font:300 2.5em courier
+}
+dd{
+	margin-inline-start: 0px;
+	margin-bottom:15px
+}
+</style>

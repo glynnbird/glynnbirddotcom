@@ -1,0 +1,22 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Pic from '../components/Pic.astro';
+import Blurb from '../components/Blurb.astro';
+import Title from '../components/Title.astro';
+import PostList from '../components/PostList.astro';
+---
+
+<Layout title="Welcome to Astro." description="Hello there">
+	<header>
+		<Title />
+		<Blurb />
+		<Pic />
+	</header>
+	<main>
+    <PostList />
+	</main>
+</Layout>
+
+<style>
+	
+</style>
