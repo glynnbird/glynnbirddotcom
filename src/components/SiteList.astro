@@ -1,0 +1,53 @@
+---
+const software = [
+  {
+    url: 'https://www.choirless.com/',
+    title: 'Choirless',
+    summary: 'A web-based music/video collaboration platform. A multi-track video recorder.'
+  },
+  {
+    url: 'https://glynnbird.github.io/drummer/',
+    title: 'Drummer',
+    summary: 'A web-based drum machine.'
+  },
+  {
+    url: 'https://glynnbird.github.io/passwordgen/',
+    title: 'PasswordGen',
+    summary: 'A simple password generator.'
+  },
+  {
+    url: 'https://glynnbird.github.io/chaise/',
+    title: 'Chaise',
+    summary: 'A Apache CouchDB dashboard - with a sprinkle of SQL.'
+  },
+  {
+    url: 'https://glynnbird.github.io/transposer/',
+    title: 'Transposer',
+    summary: 'A guitar tab and lyrics store that allows each song\'s key to be changed.'
+  },
+  {
+    url: 'https://glynnbird.github.io/teletext/',
+    title: 'Teletext',
+    summary: 'Hacker news presented as Teletext.'
+  },
+  { 
+    url: 'https://glynnbird.github.io/dogfight/',
+    title: 'Dogfight',
+    summary: 'Web-based recreation of an old BBC micro game.'
+  },
+  { 
+    url: 'https://cryptario.net/',
+    title: 'Cryptario',
+    summary: 'Cryptic crossword tools.'
+  }
+]
+---
+
+<h2>Websites</h2>
+<dl>
+  <dt></dt>
+  {software.map((p) => 
+    <dt><a href={ p.url }>{ p.title }</a></dt>
+    <dd>{ p.summary }</dd>
+  )}
+</dl>
