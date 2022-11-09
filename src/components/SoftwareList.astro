@@ -1,0 +1,89 @@
+---
+const software = [
+  {
+    url: 'https://www.npmjs.com/package/couchimport',
+    title: 'couchimport',
+    summary: 'CSV/TSV import/export command-line scripts for interacting with Apache CouchDB.'
+  },
+  {
+    url: 'https://www.npmjs.com/package/ccurl',
+    title: 'ccurl',
+    summary: 'A curl wrapper to make forming requests for Apache CouchDB easier.'
+  },
+  {
+    url: 'https://www.npmjs.com/package/nano',
+    title: 'nano',
+    summary: 'Official Apache CouchDB Node.js client.'
+  },
+  {
+    url: 'https://www.npmjs.com/package/couchsnapshot',
+    title: 'couchsnapshot',
+    summary: 'An incremental backup tool for Apache CouchDB.'
+  },
+  {
+    url: 'https://www.npmjs.com/package/couchfirehose',
+    title: 'couchfirehose',
+    summary: 'A fast data movement tool for Apache CouchDB'
+  },
+  {
+    url: 'https://www.npmjs.com/package/couchwarehouse',
+    title: 'couchwarehouse',
+    summary: 'A datawarehousing tool for data originating in Apache CouchDB/Cloudant.'
+  },
+  {
+    url: 'https://www.npmjs.com/package/couchreplicate',
+    title: 'couchreplicate',
+    summary: 'CLI tool to help with Apache CouchDB replications.'
+  },
+  {
+    url: 'https://www.npmjs.com/package/couchshell',
+    title: 'couchshell',
+    summary: 'Interact with Apache CouchDB as if it were a Linux file system.'
+  },
+  {
+    url: 'https://www.npmjs.com/package/couchmigrate',
+    title: 'couchmigrate',
+    summary: 'CLI tool to help migration of index definitions with Apache CouchDB.'
+  },
+  {
+    url: 'https://www.npmjs.com/package/toot',
+    title: 'toot',
+    summary: 'Mastodon CLI tool. Send toots from the command line.'
+  },
+  {
+    url: 'https://www.npmjs.com/package/qrate',
+    title: 'qrate',
+    summary: 'A Node.js library to create rate limited, defined-concurrency queues.'
+  },
+  {
+    url: 'https://www.npmjs.com/package/kuuid',
+    title: 'kuuid',
+    summary: 'A Node.js library to generate time-sortable UUIDs.'
+  },
+  {
+    url: 'https://www.npmjs.com/package/datamaker',
+    title: 'datamaker',
+    summary: 'CLI and Node.js library for dummy data generation.'
+  },
+  {
+    url: 'https://www.npmjs.com/package/birdle',
+    title: 'birdle',
+    summary: 'Wordle clone for CLI fans.'
+  },
+  {
+    url: 'https://www.npmjs.com/package/latlongify',
+    title: 'latlongify',
+    summary: 'Tells you where a lat/long pair is.'
+  }
+]
+
+---
+
+<h2>Open Source Software</h2>
+<dl>
+  <dt></dt>
+  {software.map((p) => 
+    <dt><a href={ p.url }>{ p.title }</a></dt>
+    <dd>{ p.summary }</dd>
+  )}
+</dl>
