@@ -1,6 +1,6 @@
 {
   "name": "glynnbirddotcom",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Glynn Bird <glynn.bird@gmail.com>",
   "scripts": {
     "dev": "astro dev",
@@ -10,6 +10,6 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^1.9.1"
+    "astro": "^2.0.1"
   }
 }
