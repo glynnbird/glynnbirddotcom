@@ -1,6 +1,51 @@
 ---
 const posts = [
   {
+    "url": "https://blog.cloudant.com/2023/03/27/HTTP-429.html",
+    "title": "HTTP 429",
+    "summary": "Handling Cloudant's rate limiting HTTP response",
+    "tags": [
+      "API",
+      "HTTP"
+    ]
+  },
+  {
+    "url": "https://blog.cloudant.com/2023/03/27/HTTP-409.html",
+    "title": "HTTP 409",
+    "summary": "When is conflict not a conflict?",
+    "tags": [
+      "API",
+      "HTTP"
+    ]
+  },
+  {
+    "url": "https://blog.cloudant.com/2023/03/27/HTTP-200-201-202.html",
+    "title": "HTTP 200/201/202",
+    "summary": "What do CouchDB/Cloudant success response codes mean?",
+    "tags": [
+      "API",
+      "HTTP"
+    ]
+  },
+  {
+    "url": "https://blog.cloudant.com/2023/02/08/Replication-efficiency-improvements.html",
+    "title": "Replication Efficieny Improvements",
+    "summary": "How Cloudant made replication go faster?",
+    "tags": [
+      "Replication",
+      "Cloudant"
+    ]
+  },
+  {
+    "url": "https://blog.cloudant.com/2023/03/09/Taxi-service-using-Cloudant.html",
+    "title": "Taxi Service",
+    "summary": "How to build a taxi service with Cloudant?",
+    "tags": [
+      "Cloudant",
+      "Design"
+    ]
+  },
+  {
     "url": "https://medium.com/@glynn_bird/how-i-do-couchdb-backups-e71360a5afa1",
     "title": "How I Backup CouchDB Data",
     "summary": "Creating searchable, incremental backups with Apache CouchDB or Cloudant.",
@@ -1014,18 +1059,6 @@ const posts = [
     ]
   },
   {
-    "url": "https://developer.ibm.com/clouddataservices/2016/11/22/10602/",
-    "title": "Caching Cloudant Requests with cachemachine",
-    "summary": "Take the load off your back-end API by adding a simple Redis caching layer in front.",
-    "github": "https://github.com/glynnbird/cachemachine",
-    "npm": "https://www.npmjs.com/package/cachemachine",
-    "tags": [
-      "Redis",
-      "Cloudant",
-      "Cache"
-    ]
-  },
-  {
     "url": "https://developer.ibm.com/clouddataservices/2016/11/16/blazingly-fast-geospatial-queries-with-redis/",
     "title": "Blazingly Fast Geospatial Queries with Redis",
     "summary": "Import geospatial data into Redis using Python and make super fast 'find nearest' queries",
@@ -1036,81 +1069,12 @@ const posts = [
     ]
   },
   {
-    "url": "https://developer.ibm.com/clouddataservices/2016/11/10/enhanced-cloudant-search-with-watson-alchemy/",
-    "title": "Enhanced Cloudant Search with Watson",
-    "summary": "Add structure to your unstructured data with Watson Alchemy APIs for a better search experience",
-    "github": "https://github.com/glynnbird/alchemy-news",
-    "demo": "https://glynnbird.github.io/alchemy-news",
-    "tags": [
-      "Cloudant",
-      "Watson",
-      "Search"
-    ]
-  },
-  {
-    "url": "https://developer.ibm.com/clouddataservices/2016/09/23/cloudant-nodejs-library-v1dot5/",
-    "title": "Plug into the Cloudant Node.js Library",
-    "summary": "Now includes plugins for 429 retries, Promises and your custom designs.",
-    "github": "https://github.com/cloudant/nodejs-cloudant",
-    "npm": "https://www.npmjs.com/package/@cloudant/cloudant",
-    "tags": [
-      "Node.js",
-      "Cloudant"
-    ]
-  },
-  {
-    "url": "https://developer.ibm.com/clouddataservices/2016/09/19/import-json-nosqlimport/",
-    "title": "NoSQLImport",
-    "summary": "Import CSV data into Cloudant/CouchDB, MongoDB or ElasticSearch",
-    "github": "https://github.com/glynnbird/nosqlimport",
-    "npm": "https://www.npmjs.com/package/nosqlimport",
-    "tags": [
-      "Cloudant",
-      "CSV",
-      "MongoDB",
-      "ElasticSearch"
-    ]
-  },
-  {
     "url": "https://developer.ibm.com/clouddataservices/2016/11/08/building-offline-first-progressive-web-apps/",
     "title": "Building Offline-First, Progressive Web Apps",
     "summary": "Make web apps that sync offline, are installable on mobile phones and render on all devices.",
     "tags": [
       "PWA",
       "Cloudant",
-      "PouchDB"
-    ]
-  },
-  {
-    "url": "https://medium.com/offline-camp/scaling-offline-first-with-envoy-ada42d130cfc",
-    "title": "Scaling Offline First with Envoy",
-    "summary": "Cloudant Envoy allows offline-first apps to maintain the 1-database-per-user model, while storing all the data in one database on the server side.",
-    "github": "https://github.com/cloudant-labs/envoy",
-    "npm": "https://www.npmjs.com/package/cloudant-envoy",
-    "tags": [
-      "Cloudant",
-      "Node.js",
-      "Offline First"
-    ]
-  },
-  {
-    "url": "https://developer.ibm.com/clouddataservices/2016/05/31/introducing-the-simple-autocomplete-service/",
-    "title": "Simple Autocomplete Service",
-    "summary": "Turn a list of strings into a performant autocomplete API service.",
-    "github": "https://github.com/ibm-cds-labs/simple-autocomplete-service",
-    "tags": [
-      "Redis",
-      "Node.js"
-    ]
-  },
-  {
-    "url": "https://developer.ibm.com/clouddataservices/2016/05/11/chrome-extensions-pouchdb/",
-    "title": "Chrome Extensions with PouchDB",
-    "summary": "Create offline-first Google Chrome extensions that can sync with Cloudant/CouchDB.",
-    "github": "https://github.com/glynnbird/linkshare\"",
-    "tags": [
-      "Offline First",
-      "Chrome",
       "PouchDB"
     ]
   },
@@ -1194,18 +1158,6 @@ const posts = [
     ]
   },
   {
-    "url": "Logshare",
-    "title": "Log sharing service",
-    "summary": "Simple log sharing utility built with Node.js, Redis and Cloudant.",
-    "github": "https://github.com/glynnbird/logshare",
-    "npm": "https://www.npmjs.com/package/logshare",
-    "tags": [
-      "Redis",
-      "Cloudant",
-      "Node.js"
-    ]
-  },
-  {
     "url": "https://developer.ibm.com/clouddataservices/2016/01/21/introducing-simple-faceted-search-service/",
     "title": "Simple Search Service",
     "summary": "Created a faceted search engine by uploading a CSV file.",
@@ -1234,15 +1186,6 @@ const posts = [
       "Microservices",
       "Kafka",
       "RabbitMQ"
-    ]
-  },
-  {
-    "url": "https://github.com/glynnbird/volt",
-    "title": "Volt",
-    "summary": "Password vault as a Chrome Extension using PouchDB",
-    "github": "https://github.com/glynnbird/volt",
-    "tags": [
-      "PouchDB"
     ]
   },
   {
@@ -1278,25 +1221,6 @@ const posts = [
     "tags": [
       "Slack",
       "Cloudant"
-    ]
-  },
-  {
-    "url": "https://github.com/glynnbird/proforma",
-    "title": "Proforma",
-    "summary": "Offline first data capture",
-    "tags": [
-      "Offline First",
-      "PouchDB"
-    ]
-  },
-  {
-    "url": "http://glynnbird.github.io/gutenberg/\"",
-    "title": "Gutenberg",
-    "summary": "Offline-first e-book reader built with PouchDB",
-    "github": "https://github.com/glynnbird/gutenberg",
-    "tags": [
-      "Offline First",
-      "PouchDB"
     ]
   },
   {
@@ -1353,14 +1277,6 @@ const posts = [
     ]
   },
   {
-    "url": "https://github.com/glynnbird/flasher",
-    "title": "Flasher",
-    "summary": "LED flashing utility for Raspberry Pi",
-    "tags": [
-      "Pi"
-    ]
-  },
-  {
     "url": "https://developer.ibm.com/dwblog/2015/cloudant-document-conflicts-three/",
     "title": "A guide to Cloudant document conflicts - Part Three",
     "summary": "The third part of triology on CouchDB document conflicts, how they work and how to resolve and avoid them",
@@ -1385,122 +1301,6 @@ const posts = [
     "tags": [
       "Cloudant",
       "CouchDB"
-    ]
-  },
-  {
-    "url": "https://github.com/glynnbird/anagrammer",
-    "title": "Anagrammer",
-    "summary": "Anagram solver built with a Cloudant's and a custom MapReduce index.",
-    "tags": [
-      "Cloudant"
-    ]
-  },
-  {
-    "url": "https://github.com/glynnbird/md",
-    "title": "md",
-    "summary": "Offline first markdown word-processor",
-    "tags": [
-      "Offline First",
-      "PouchDB"
-    ]
-  },
-  {
-    "url": "https://github.com/glynnbird/xword",
-    "title": "Xword",
-    "summary": "Collaborative crossword tool",
-    "tags": [
-      "PouchDB"
-    ]
-  },
-  {
-    "url": "https://github.com/glynnbird/celsius",
-    "title": "Celcius",
-    "summary": "IoT demo with Raspberry Pi & Cloudant",
-    "tags": [
-      "Cloudant"
-    ]
-  },
-  {
-    "url": "https://github.com/glynnbird/geoquiz",
-    "title": "GeoQuiz",
-    "summary": "Client-side programming demo using jQuery & Cloudant.",
-    "tags": [
-      "Cloudant"
-    ]
-  },
-  {
-    "url": "https://github.com/glynnbird/proxee",
-    "title": "Proxee",
-    "summary": "Programmable HTTP proxy that uses CouchDB/Cloudant",
-    "tags": [
-      "Cloudant"
-    ]
-  },
-  {
-    "url": "https://www.npmjs.com/package/yub",
-    "title": "Yub",
-    "summary": "Node.js library for interaction with Yubico's API",
-    "github": "https://github.com/glynnbird/yub",
-    "npm": "https://www.npmjs.com/package/yub",
-    "tags": [
-      "Yubico",
-      "Node.js"
-    ]
-  },
-  {
-    "url": "https://www.npmjs.com/package/couchmigrate\"",
-    "title": "couchmigrate",
-    "summary": "A CouchDB design document migration tool that allows you to switch in a new design doc and wait for it build before putting it live.",
-    "github": "https://github.com/glynnbird/couchmigrate",
-    "npm": "https://www.npmjs.com/package/couchmigrate\"",
-    "tags": [
-      "Cloudant",
-      "CouchDB"
-    ]
-  },
-  {
-    "url": "https://www.npmjs.org/package/couchimport",
-    "title": "couchimport",
-    "summary": "A simple CSV import for CouchDB/Cloudant. Import structured text into NoSQL from the command line.",
-    "github": "https://github.com/glynnbird/couchimport",
-    "npm": "https://www.npmjs.org/package/couchimport",
-    "tags": [
-      "Cloudant",
-      "CouchDB",
-      "CSV"
-    ]
-  },
-  {
-    "url": "https://www.npmjs.com/package/couchshell",
-    "title": "couchshell",
-    "summary": "CouchDB/Cloudant command-line shell. Enables you to interact with CouchDB as if it were a Unix file system.",
-    "github": "https://github.com/glynnbird/couchshell",
-    "npm": "https://www.npmjs.com/package/couchshell",
-    "tags": [
-      "Cloudant",
-      "CouchDB"
-    ]
-  },
-  {
-    "url": "https://www.npmjs.org/package/ccurl",
-    "title": "ccurl",
-    "summary": "CouchDB/Cloudant command-line helper. Enables you to interact with Cloudant's HTTP API from the terminal without typing domain names, protocols, passwords, content-types etc.",
-    "github": "https://github.com/glynnbird/ccurl",
-    "npm": "https://www.npmjs.org/package/ccurl",
-    "tags": [
-      "Cloudant",
-      "CouchDB"
-    ]
-  },
-  {
-    "url": "https://github.com/glynnbird/birdreader",
-    "title": "BirdReader",
-    "summary": "Host-it-yourself RSS Reader built with Node.js & Cloudant. Host on Cloud, PC or Raspberry Pi.",
-    "github": "https://github.com/glynnbird/birdreader",
-    "tags": [
-      "CouchDB",
-      "RSS",
-      "Node.js"
     ]
   }
 ]
