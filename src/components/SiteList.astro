@@ -1,11 +1,6 @@
 ---
 const software = [
   {
-    url: 'https://www.choirless.com/',
-    title: 'Choirless',
-    summary: 'A web-based music/video collaboration platform. A multi-track video recorder.'
-  },
-  {
     url: 'https://glynnbird.github.io/drummer/',
     title: 'Drummer',
     summary: 'A web-based drum machine.'
@@ -50,7 +45,6 @@ const software = [
 
 <h2>Websites</h2>
 <dl>
-  <dt></dt>
   {software.map((p) => 
     <dt><a href={ p.url }>{ p.title }</a></dt>
     <dd>{ p.summary }</dd>
