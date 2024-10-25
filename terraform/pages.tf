@@ -2,7 +2,7 @@
 resource "cloudflare_pages_project" "frontend_project" {
   account_id        = var.cloudflare_account_id
   name              = "glynnbirddotcom"
-  production_branch = "cf"
+  production_branch = "main"
   
   build_config {
     build_command       = "./build.sh"
@@ -15,7 +15,7 @@ resource "cloudflare_pages_project" "frontend_project" {
     config {
       owner                         = "glynnbird"
       repo_name                     = "glynnbirddotcom"
-      production_branch             = "cf"
+      production_branch             = "main"
     }
   }
     deployment_configs {
