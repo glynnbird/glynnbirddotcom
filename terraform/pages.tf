@@ -5,6 +5,7 @@ resource "cloudflare_pages_project" "frontend_project" {
   production_branch = "cf"
   
   build_config {
+    build_command       = "./build.sh"
     destination_dir     = "frontend/dist"
     root_dir            = "/"
   }
