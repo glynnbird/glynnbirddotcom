@@ -36,10 +36,10 @@ resource "cloudflare_pages_domain" "frontend_domain" {
   domain       = var.cloudflare_domain
 }
 
-# resource "cloudflare_record" "frontend_dns" {
-#   zone_id = var.cloudflare_zone_id
-#   name    = "pass"
-#   content   = cloudflare_pages_project.frontend_project.subdomain
-#   type    = "CNAME"
-#   ttl     = 3600
-# }
+resource "cloudflare_record" "frontend_dns" {
+  zone_id = var.cloudflare_zone_id
+  name    = "@"
+  content   = cloudflare_pages_project.frontend_project.subdomain
+  type    = "CNAME"
+  ttl     = 3600
+}
