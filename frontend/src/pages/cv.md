@@ -54,14 +54,16 @@ Returned to former employer as "IT Manager", responsible for office IT, software
 
 ### IBM 2014-present
 
-Developer advocate for IBM Cloud producing [blog posts](https://medium.com/@glynn_bird/latest), sample apps and presenting talks at technical conferences. I advocated for a variety of products in the IBM catalogue including Cloudant, Redis, OpenWhisk, Jupyter Notebooks and Object Storage.
+Developer advocate for IBM Cloud producing [blog posts](https://medium.com/@glynn_bird/latest), sample apps and presenting talks at technical conferences. I advocated for a variety of products in the IBM catalogue including Cloudant, Redis, OpenWhisk, Jupyter Notebooks and Object Storage until 2019.
+
+Joined the Cloudant team to engage with customers to espouse best practice, to write blogs & documentation and to feed back customer requests into the development cycle.
 
 ## Key Skills
 
 - Programming - C, C++, Objective-C, PHP, Forth, Java, Javascript, Node.js, Python, Solidity
 - Databases - MySQL, Postgresql, MS-SQL, Redis, MongoDB, Apache CouchDB, BerkeleyDB
 - Development Team Management - Managing development teams including testing, design and database in short, agile sprints (2-3 days).
-- Written communication - My [written output](https://medium.com/@glynn_bird/latest) is proflific but clear and thorough with an emphasis on explaining difficult topics in digestable terms, without sacrificing detail.
+- Written communication - My [written output](https://medium.com/@glynn_bird/latest) is prolific but clear and thorough with an emphasis on explaining difficult topics in digestable terms, without sacrificing detail.
 - Serverless technology - Apache OpenWhisk & AWS Lambda using Node.js. 
 - Smart Contracts on the Ethereum blockchain - Writing contract code in Solidity. I have presented talks and workshops on Ethereum and blockchain technologies.
 - Open source - Many [open source](https://github.com/glynnbird) software contributions. Apache contributor and producer of command-line utilites, libraries and demos, many published on [npm](https://www.npmjs.com/~glynnbird).
