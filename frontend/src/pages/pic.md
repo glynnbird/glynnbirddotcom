@@ -1,5 +1,10 @@
----
----
+<style>
+pre {
+  font-size:12px;
+  font-weight: bold;
+  line-height: 12px;
+}
+</style>
 <pre>  
               `.-:-.`...`                      
               `.:/+o+//ossys+:.                    
@@ -31,10 +36,4 @@
  .`....-.....--------:::::--------......---..`.-.--
  </pre>
 
- <style>
-  pre {
-    font-size:12px;
-    font-weight: bold;
-    line-height: 12px;
-  }
- </style>
+
