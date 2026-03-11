@@ -10,9 +10,6 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.18.0"
-  },
-  "devDependencies": {
-    "astro-html-beautifier": "^1.0.4"
+    "astro": "^6.0.2"
   }
 }
