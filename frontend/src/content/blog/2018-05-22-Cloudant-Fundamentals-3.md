@@ -52,7 +52,7 @@ Cloudant actually stores revisions in a tree data structure, the simplest form b
 
 ![revision tree](/img/revtree.png)
 
-Things can get much more complicated than this when we talk about [conflicts]({{< ref "2015-01-12-Introduction-to-Conflicts-Part-One.md" >}}) but that is for another time.
+Things can get much more complicated than this when we talk about conflicts but that is for another time.
 
 As to why data is stored like this, it's because Cloudant was built to work as a distributed database with the data stored across many nodes in a cluster. Distributed systems are complicated, and the revision tree allows the database to handle conflicting writes without losing data, rather like Git would not lose data in a conflicting merge. The revision tree is also essential when replicating data from one location to another. Two databases in any state could be replicated in either direction without loss of data, thanks to the revision tree.
 

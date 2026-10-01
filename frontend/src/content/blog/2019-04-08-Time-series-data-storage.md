@@ -66,7 +66,7 @@ This _write only_ approach combined with the deletion of older data by removing 
 
 ## Storing time/date in a time-series database
 
-The choice of time and date format in your JSON document is important because JSON has no native date/time data type. This is explained in more detail [here]({{< ref "/2018-05-22-Date-formats.md" >}}) but the gist is:
+The choice of time and date format in your JSON document is important because JSON has no native date/time data type. The gist is:
 
 - use ISO-8601 format ("2019-03-29T10:36:03.510Z") to store time-sortable, human & machine readable time stamps.
 - use "milliseconds since 1970" format for easy date/time arithmetic.
@@ -75,7 +75,7 @@ The choice of time and date format in your JSON document is important because JS
 
 ## Time-sortable ids
 
-If we're using 32 characters to store a "random" `_id` field, then it would be handy if it sorted in chronological order in a time-series database. This technique is outlined [here]({{< ref "/2018-08-24-Time-sortable-document-ids.md" >}}).
+If we're using 32 characters to store a "random" `_id` field, then it would be handy if it sorted in chronological order in a time-series database.
 
 In brief, the front of the `_id` is a time-sortable string and rest is random data. The `_id` field then sorts in approximate date/time order (to a precision of one second).
 

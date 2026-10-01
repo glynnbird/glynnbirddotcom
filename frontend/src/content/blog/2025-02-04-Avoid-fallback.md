@@ -275,7 +275,7 @@ Using `allow_fallback: false` allows application developers to have certainty th
 
 ## Covering indexes
 
-We saw in the [Explaining Explain blog post]({{< ref "/2024-01-17-Explaining-explain.md" >}}) that a "covering index" is one where the index contains enough information to satisfy the fields required by the query. A query using a covering index is faster than one powered by a non-covering index because Cloudant doesn't have to load the resultant documents from the database - all of the data is in the index itself.
+A "covering index" is one where the index contains enough information to satisfy the fields required by the query. A query using a covering index is faster than one powered by a non-covering index because Cloudant doesn't have to load the resultant documents from the database - all of the data is in the index itself.
 
 Let's say we want the names and emails of people who belong to a known team. We would add a `fields` parameter to our query that uses the `byTeam` index:
 

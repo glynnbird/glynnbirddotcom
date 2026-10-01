@@ -30,7 +30,7 @@ For other users, conflicts are just a pain - customers want Cloudant to behave l
 
 ## A short detour into the HTTP 409 response
 
-Cloudant's way of telling an API client that it is attempting to modify a document that has already been superceded is the **HTTP 409 response code**. Discussed in more detail in [this blog post]({{< ref "/2023-03-27-HTTP-409.md" >}}), the HTTP 409 response to a document write (insert, update or delete) means:
+Cloudant's way of telling an API client that it is attempting to modify a document that has already been superceded is the **HTTP 409 response code**. The HTTP 409 response to a document write (insert, update or delete) means:
 
 > Sorry we did not accept your write operation because the resource you are attempting to modify has already been changed.
 
@@ -76,10 +76,5 @@ Although it's almost impossible to induce a spurious conflict in a document usin
 
 ## What about my existing conflicted Cloudant database?
 
-This new Cloudant feature helps prevent _new_ spurious conflicts being written to the database, but if you already have heavily conflicted documents in Cloudant, it is still worth reading how to [Repair a database with Cloudant Conflicts]({{< ref "/2020-11-26-Repairing-a-Database-With-Conflicts.md" >}}).
+This new Cloudant feature helps prevent _new_ spurious conflicts being written to the database, but if you already have heavily conflicted documents in Cloudant, it is still worth reading how to repair a database with Cloudant conflicts.
 
-## Read more
-
-- [What is an HTTP 409?]({{< ref "/2023-03-27-HTTP-409.md" >}}).
-- [Cloudant Conflicts]({{< ref "/2018-07-25-Removing-Conflicts.md" >}})
-- [Repairing a database with Cloudant Conflicts]({{< ref "/2020-11-26-Repairing-a-Database-With-Conflicts.md" >}})

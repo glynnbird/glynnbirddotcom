@@ -76,7 +76,7 @@ In Cloudant's analysis of the JavaScript our customers have provided as index-bu
 
 1. Avoid using `for each(var i in array) { }` - this was supported in SpiderMonkey 1.8.5 but not later versions and not in QuickJS. Instead, use `for (var i in array) { }`.
 2. Do not use [E4X](https://en.wikipedia.org/wiki/ECMAScript_for_XML), the XML extension for JavaScript. e.g. `var xml = <body><p></p></body>`. This is not supported QuickJS or later versions of SpiderMonkey.
-3. Avoid string locale conversion. Store dates as numeric [timestamps or ISO-8601 strings in the UTC timezone]({{< ref "2018-05-22-Date-formats.md" >}}) and emit these values in indexes - perform local conversion further up the application stack.
+3. Avoid string locale conversion. Store dates as numeric timestamps or ISO-8601 strings in the UTC timezone and emit these values in indexes - perform local conversion further up the application stack.
 4. Provide only a single `function(doc) { ... }` string as a view's `map` key. Other information outside to the function scope is ignored.
 5. Don't rely on the order of keys in Objects.
 6. `String.match(undefined)` returns `null` on older SpiderMonkey engines and `[""]` in newer engines.

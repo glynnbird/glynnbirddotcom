@@ -1703,8 +1703,6 @@ Adding `execution_stats: true` to a Cloudant Query `_find` API call will unlock 
 
 > Note: the `execution_stats` parameter only applies to the `_find` API and will not work with `_explain` because the latter does not actually execute the query.
 
-See [this blog post]({{< ref "/2020-05-20-Optimising-Cloudant-Queries.md" >}}) on how to choose the best index for your query.
-
 ------
 
 ## Further reading

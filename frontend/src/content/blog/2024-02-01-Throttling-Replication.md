@@ -138,7 +138,7 @@ This table shows how combinations of `http_connections` and `worker_processes` t
 | 12               | 3                | 2000                                            |
 | 20               | 4                | 3000 (This value is the default.)               |
 
-> Note: there are other flags and attributes that can be added to the `_replicator` document. See [this blog post]({{< ref "/2023-02-08-Replication-efficiency-improvements.md" >}}).
+> Note: there are other flags and attributes that can be added to the `_replicator` document.
 
 In practice, it's best to try a replication configuration and measure how fast it is progressing and how much of your Cloudant capacity is being consumed using the [provisioned throughput capacity consumption API](https://cloud.ibm.com/apidocs/cloudant#getcurrentthroughputinformation). The actual consumption rate will depend on factors including:
 

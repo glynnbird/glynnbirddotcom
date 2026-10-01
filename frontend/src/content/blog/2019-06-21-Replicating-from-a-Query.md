@@ -79,7 +79,7 @@ This is much better than filtering the replication from one large database but d
 
 Ideally, we'd like to keep a single server-side database to make reporting easy but we also want to keep the data size small on the mobile side. Starting with a blank mobile-side database every day we would like to replicate only the data that is of interest to one user in restricted time-window. Effectively, we would like to copy data based on a query and push the matching records to the clean, mobile database. This isn't a built-in feature of Cloudant but is easily achievable with a few steps:
 
-1. Perform the query to get the list of document ids to copy. In our case, it's going to be a handful of documents. Note that the query should be [backed by a suitable index]({{< ref "/2018-07-12-CloudantFundamentals-Indexing.md" >}}) to keep performance snappy.
+1. Perform the query to get the list of document ids to copy. In our case, it's going to be a handful of documents. Note that the query should be backed by a suitable index to keep performance snappy.
 2. Fetch the document bodies *including the replication history* matching the document ids from step 1.
 3. Write the documents to the mobile-side database, retaining the replication history
 
@@ -141,7 +141,7 @@ In our use-case, the data set being "replicated" is small (a handful of document
 
 Whichever option we pick to copy data to our mobile device, our engineers now have their documents in PouchDB and can take them to their remote site to do their installation work. They can modify the appointment documents to add data they collect on site, creating new revisions of the documents in PouchDB as they do so. When the engineer is ready to upload their work, a simple [db.replicate.to(cloudantDB)](https://pouchdb.com/api.html#replication) call is all that is required to push those revisions to Cloudant.
 
-If there's a possibility that an server-side appointment document could have been modified while the engineer was out and about, then it's essential to check for and repair [document conflicts]({{< ref "/2015-01-12-Introduction-to-Conflicts-Part-One.md" >}}). When two documents are modified in different ways by disconnected replicas of a database, Cloudant doesn't discard data on sync, it keeps the clashing versions as _conflicts_ in its revision tree. It is your application's responsibility to detect and tidy up conflicts.
+If there's a possibility that an server-side appointment document could have been modified while the engineer was out and about, then it's essential to check for and repair document conflicts. When two documents are modified in different ways by disconnected replicas of a database, Cloudant doesn't discard data on sync, it keeps the clashing versions as _conflicts_ in its revision tree. It is your application's responsibility to detect and tidy up conflicts.
 
 If you want to avoid conflicts altogether, then the next section shows you how.
 

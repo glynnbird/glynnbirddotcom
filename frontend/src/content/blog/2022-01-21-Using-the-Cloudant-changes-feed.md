@@ -85,7 +85,7 @@ Filtering the changes feed, and by extension, performing filtered replication ha
 - Copying data from source to target but ignoring deleted documents.
 - Copying data but without index definitions (design documents).
 
-This [blog post]({{< ref "/2019-12-13-Filtered-Replication.md" >}}) describes how supplying a `selector` during replication makes easy work of these use cases.
+Supplying a `selector` during replication makes easy work of these use cases.
 
 The changes feed with an accompanying `selector` parameter is _not_ the way to extract slices of data from the database on a routine basis. It should not be used as a means of performing operational queries against a database. Filtered changes are slow (the filter is applied to every changed document in turn, without the help of an index), much slower than creating a secondary index (such as a MapReduce view) and querying that view. 
 

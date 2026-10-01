@@ -81,7 +81,7 @@ We are also going to override the choice of analyzers for some fields. Analyzers
 
 ![override the analyzers](../../assets/searchsyntax1.png)
 
-See [this blog post on Analyzers]({{< ref "2018-10-19-Search-Analyzers.md" >}}) and the [Cloudant documentation on index functions](https://cloud.ibm.com/docs/Cloudant?topic=Cloudant-cloudant-search#index-functions).
+See the [Cloudant documentation on index functions](https://cloud.ibm.com/docs/Cloudant?topic=Cloudant-cloudant-search#index-functions).
 
 We now have the following fields we can query on:
 
@@ -208,4 +208,4 @@ Search is good for:
 - Queries that need to be sorted by "best match" or by another nominated field, or fields.
 - Queries that need a maximum of 200 results per call.
 - Queries that need flexible sort ordering.
-- Queries that need to be [sorted by nearness to a point]({{< ref "2022-06-28-Simple-Geospatial-Queries.md" >}}).
+- Queries that need to be sorted by nearness to a point.

@@ -255,8 +255,7 @@ We can see our programmatically-generated data for the first time!
 Notice:
 
 - Each document has a Cloudant-generated `_id`. As we didn't supply a document id, Cloudant generated one for us.
-- Each document has a revision token. See
-[this blog]({{< ref "/2018-05-22-Cloudant-Fundamentals-3.md" >}}) to understand how Cloudant stores document revisions.
+- Each document has a revision token.
 - Our documents data includes a `ts` (timestamp), a `reading` between 0 and 100 and a rainbow-themed `team`.
 
 If we wanted only a single team's data we would have to supply a query to Cloudant, but before we do that, we can create an index to allow us to efficiently query our data.
@@ -344,8 +343,7 @@ Note:
 - The `selector` key defines the slice of data required, in this case documents belonging to the green team. This is like the 'WHERE' clause of a SQL query.
 - The `sort` key defines the order in which data is returned - in timestamp order (ascending) in this case.
 - The `limit` field defines how many documents are returned.
-- When presented with a Cloudant query, the database will look for the best secondary index available to answer the query. If it cannot find one, then a very slow sequential scan will take place and performance will suffer. See
-[this blog]({{< ref "/2020-05-20-Optimising-Cloudant-Queries.md" >}}) to learn more about Cloudant Queries.
+- When presented with a Cloudant query, the database will look for the best secondary index available to answer the query. If it cannot find one, then a very slow sequential scan will take place and performance will suffer. 
 
 Running this script with
 

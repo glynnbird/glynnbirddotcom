@@ -79,7 +79,7 @@ GET /cars/_design/mydesigndoc/_search/modelsearch?q=model%3ASkylark
 
 we should get the same results. 
 
-The way Cloudant Search behaves with supplied text depends on the _analyzer_ used to pre-process and split the string into indexable tokens. The default Cloudant Search _analyzer_ is the _standard analyzer_ which removes punctuation, splits strings into words, removes stop words and lowercases everything prior to indexing. [Other analyzers]({{< ref "/2018-10-19-Search-Analyzers.md" >}}) are available which pre-process the data in different ways. If you need a _case sensitive_ Cloudant Search, then you can opt to use the _whitespace analyzer_ instead.
+The way Cloudant Search behaves with supplied text depends on the _analyzer_ used to pre-process and split the string into indexable tokens. The default Cloudant Search _analyzer_ is the _standard analyzer_ which removes punctuation, splits strings into words, removes stop words and lowercases everything prior to indexing. Other analyzers are available which pre-process the data in different ways. If you need a _case sensitive_ Cloudant Search, then you can opt to use the _whitespace analyzer_ instead.
 
 ## Cloudant Query
 
