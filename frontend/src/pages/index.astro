@@ -1,20 +1,8 @@
 ---
-import Layout from "../layouts/Layout.astro";
+import Layout from "../layouts/Index.astro";
 import Blurb from "../components/Blurb.astro";
-import Title from "../components/Title.astro";
-import PostList from "../components/PostList.astro";
-import SoftwareList from "../components/SoftwareList.astro";
-import SiteList from "../components/SiteList.astro";
 ---
 
 <Layout title="Glynnbird.com" description="The personal website of Glynn Bird">
-  <header>
-    <Title />
-    <Blurb />
-  </header>
-  <main>
-    <SiteList />
-    <SoftwareList />
-    0.0.9
-  </main>
+  <Blurb />
 </Layout>

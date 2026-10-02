@@ -1,4 +1,5 @@
 ---
+import Picture from "../components/Picture.astro";
 ---
 
 <div>
@@ -7,9 +8,15 @@
   telephony systems. He now works for IBM in the UK, first as a Developer Advocate and now as a Client Architect.
 </div>
 
-<h2>Links</h2>
+<style type="text/css">
+  .linkslist {
+    margin-top: 40px;
+  }
+</style>
+
+<Picture />
+<h2 class="linkslist">Links</h2>
 <ul>
-  <li><a href="/blog/">Blog</a></li>
   <li><a rel="me" href="https://mastodon.social/@glynn_bird">Mastodon</a></li>
   <li><a href="https://github.com/glynnbird">Github</a></li>
   <li><a href="https://uk.linkedin.com/pub/glynn-bird/aa/253/25a/">LinkedIn</a></li>
