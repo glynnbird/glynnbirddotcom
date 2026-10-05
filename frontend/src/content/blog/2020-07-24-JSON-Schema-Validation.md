@@ -3,6 +3,7 @@ title: JSON Schema Validation
 pubDate: 2020-07-24T06:00:00.000Z
 description: Validating incoming JSON schemas with VDU functions
 heroImage: ../../assets/tim-arterbury-VkwRmha1_tI-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2020/07/24/JSON-Schema-Validation.html
 ---
 
 [JSON Schema](https://json-schema.org/) is a standard that allows you to specify the form of your JSON and allow programmatic validation of JSON against the specification.

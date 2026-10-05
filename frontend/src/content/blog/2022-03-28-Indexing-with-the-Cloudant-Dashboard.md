@@ -3,6 +3,7 @@ title: Indexing with the Cloudant Dashboard
 pubDate: 2022-03-28T00:00:00.000Z
 description: Creating and using indexes using the Cloudant Dashboard
 heroImage: ../../assets/zach-wiley-FFAq3r9u0-Y-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2022/03/28/Indexing-with-the-Cloudant-Dashboard.html
 ---
 
 The Cloudant dashboard gives new and experienced Cloudant users the opportunity to add, edit and delete documents while refining the indexing and querying options that best suit their application's use-cases.

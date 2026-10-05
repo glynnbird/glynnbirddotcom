@@ -3,6 +3,7 @@ title: Replicating from a Query
 pubDate: 2019-06-21T06:00:00.000Z
 description: Taking a subset of data offline and writing your own replicator.
 heroImage: ../../assets/cosmin-gurau-1618906-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2019/06/21/Replicating-from-a-Query.html
 ---
 
 Cloudant and CouchDB's replication protocol allows documents to be copied from a *source* database to a *target* database with the minimum of fuss. This unlocks a wealth of use-cases:

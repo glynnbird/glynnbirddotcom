@@ -3,6 +3,7 @@ title: Cloudant Fundamentals 7/10
 pubDate: 2018-06-18T06:00:00.000Z
 description: Querying
 heroImage: ../../assets/blake-cheek-627418-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2018/06/18/Cloudant-Fundamentals-Querying.html
 ---
 
 

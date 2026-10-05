@@ -3,6 +3,7 @@ title: "Pagination"
 description: Cloudant SDKS now feature pagination for multi-document APIs.
 pubDate: 2025-10-03T00:00:00+00:00
 heroImage: ../../assets/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2025/10/08/Pagination.html
 ---
 
 Cloudant has several multi-document APIs including:

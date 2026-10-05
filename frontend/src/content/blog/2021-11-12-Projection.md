@@ -3,6 +3,7 @@ title: Projection
 pubDate: 2021-11-12T00:00:00.000Z
 description: Storing data in an index for faster retrieval.
 heroImage: ../../assets/jeremy-yap-J39X2xX_8CQ-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2021/11/12/Projection.html
 ---
 
 Cloudant's MapReduce indexes give you complete control over what data from your primary JSON objects are stored in your secondary indexes. JavaScript functions are used to programmatically decide which document attributes are selected for inclusion as either the _key_ or the _value_ of the views - the JavaScript functions can even be used to process the data before it's saved in the index.

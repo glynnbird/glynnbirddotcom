@@ -3,6 +3,7 @@ title: Conflicts
 pubDate: 2018-07-25T06:00:00.000Z
 description: How to deal with conflicts in Cloudant documents
 heroImage: ../../assets/paul-bergmeir-97704-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2018/07/25/Removing-Conflicts.html
 ---
 
 

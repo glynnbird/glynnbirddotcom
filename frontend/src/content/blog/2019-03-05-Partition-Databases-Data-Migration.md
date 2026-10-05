@@ -3,6 +3,7 @@ title: Partitioned Databases - Data Migration
 pubDate: 2019-03-05T08:00:00.000Z
 description: Copying data from a standard database to a partitioned database.
 heroImage: ../../assets/timothy-muza-66846-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2019/03/05/Partition-Databases-Data-Migration.html
 ---
 
 Cloudant's new *Partitioned Databases* feature allows a Cloudant database to be organised into partitions (blocks of data guaranteed to reside on the same database shard) by specifying a two part `_id` field consisting of the parition and document id e.g.

@@ -3,6 +3,7 @@ title: "Replication Scheduler"
 description: Monitoring Cloudant replications using the scheduler
 pubDate: 2024-08-15T00:00:00+01:00
 heroImage: ../../assets/jeshoots-com-9qQTUYm4ss4-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2024/08/15/Replication-Scheduler.html
 ---
 
 In this blog post we'll examine how to monitor Cloudant replications using the Replication Scheduler. Replication is used to copy data from a source database to a target database, where the two databases can reside on the same Cloudant instance or different instances. Replication is used for:

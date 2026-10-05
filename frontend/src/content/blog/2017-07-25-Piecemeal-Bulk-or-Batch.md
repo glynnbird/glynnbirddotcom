@@ -3,6 +3,7 @@ title: Piecemeal, Bulk or Batch
 pubDate: 2017-07-25T09:00:00.000Z
 description: Cloudant write modes discussed
 heroImage: ../../assets/arshad-pooloo-345648-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2017/07/25/Piecemeal-Bulk-or-Batch.html
 ---
 
 

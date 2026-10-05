@@ -3,6 +3,7 @@ title: "Changes Follower"
 description: Following a changes feed with Cloudant SDKs
 pubDate: 2023-09-20T00:00:00Z
 heroImage: ../../assets/ben-pattinson-_Wo1Oq38tVU-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2023/09/20/Changes-Follower.html
 ---
 
 Cloudant's changes feed is an API that allows a client to consume a list of changes from a single Cloudant database for the purposes of:

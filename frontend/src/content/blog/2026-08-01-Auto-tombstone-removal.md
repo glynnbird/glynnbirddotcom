@@ -3,6 +3,7 @@ title: "Auto Tombstone Removal"
 description: Cloudant now automatically removes deleted documents
 pubDate: 2026-09-03T00:00:00+00:00
 heroImage: ../../assets/waldemar-brandt-jeTlob-Wv0M-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2026/09/03/Auto-Tombstone-Removal.html
 ---
 
 Cloudant now automatically completely removes deleted documents from databases approximately 90 days after they were deleted. This reduces disk usage, makes the changes feed more efficient and speeds up index building times.

@@ -3,6 +3,7 @@ title: Paginating _all_docs
 pubDate: 2019-10-25T06:00:00.000Z
 description: Paging through all_docs and views
 heroImage: ../../assets/anastasia-zhenina-XOW1WqrWNKg-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2019/10/25/Paginating-all_docs-and-views.html
 ---
 
 

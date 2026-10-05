@@ -3,6 +3,7 @@ title: couchreplicate
 pubDate: 2018-02-22T09:00:00.000Z
 description: Managing replication from the command-line
 heroImage: ../../assets/replication-screenshot.png
+relCanonical: https://blog.cloudant.com/2018/02/22/Cloudant-Replication-with-couchreplicate.html
 ---
 
 

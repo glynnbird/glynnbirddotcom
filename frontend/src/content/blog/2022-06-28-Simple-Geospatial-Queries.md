@@ -3,6 +3,7 @@ title: Simple Geospatial Queries
 pubDate: 2022-06-28T00:00:00.000Z
 description: Using Cloudant Search for simple geo searches
 heroImage: ../../assets/adolfo-felix-4JL_VAgxwcU-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2022/06/28/Simple-Geospatial-Queries.html
 ---
 
 In this blog post I'll show how to perform basic Geospatial queries using standard Cloudant secondary indexes:

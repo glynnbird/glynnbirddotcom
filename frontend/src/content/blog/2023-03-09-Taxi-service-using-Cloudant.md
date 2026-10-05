@@ -3,6 +3,7 @@ title: Taxi Service
 pubDate: 2023-03-09T00:00:00.000Z
 description: How to build a taxi service with Cloudant
 heroImage: ../../assets/waldemar-kYbYIWdJRh0-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2023/03/09/Taxi-service-using-Cloudant.html
 ---
 
 

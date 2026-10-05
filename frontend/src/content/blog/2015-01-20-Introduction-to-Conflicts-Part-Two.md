@@ -4,6 +4,7 @@ title: Introduction to Conflicts - 2/3
 pubDate: 2015-01-20T09:00:00.000Z
 description: Detecting and resolving Cloudant document conflicts.
 heroImage: ../../assets/cloudvisual-208962-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2015/01/20/Introduction-to-Conflicts-Part-Two.html
 ---
 
 

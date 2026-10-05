@@ -3,6 +3,7 @@ title: Time-series Data Storage
 pubDate: 2019-04-08T06:00:00.000Z
 description: Storing and querying time-series data in Cloudant.
 heroImage: ../../assets/sonja-langford-357-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2019/04/08/Time-series-data-storage.html
 ---
 
 Time-series data is simply the recording of data points in time order such as:

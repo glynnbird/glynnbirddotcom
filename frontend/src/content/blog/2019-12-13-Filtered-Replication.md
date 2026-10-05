@@ -3,6 +3,7 @@ title: Filtered Replication
 pubDate: 2019-12-13T06:00:00.000Z
 description: Replicating while leaving behind deletions, design docs or anything you like.
 heroImage: ../../assets/karl-fredrickson-TYIzeCiZ_60-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2019/12/13/Filtered-Replication.html
 ---
 
 

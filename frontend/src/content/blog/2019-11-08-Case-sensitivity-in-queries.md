@@ -3,6 +3,7 @@ title: Case-sensitivity in queries
 pubDate: 2019-11-08T06:00:00.000Z
 description: Making Cloudant query, search and MapReduce case sensitive or case-insensitive
 heroImage: ../../assets/amador-loureiro-BVyNlchWqzs-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2019/11/08/Case-sensitivity-in-queries.html
 ---
 
 By default, some Cloudant operations are _case sensitive_ - the query parameter must match the value in the document exactly for it to be included in search results - but if you need a _case insensitive_ query then there are number of solutions.

@@ -3,6 +3,7 @@ title: "Auth with the SDKs"
 description: How to switch auth methods at run-time
 pubDate: 2025-06-13T00:00:00+00:00
 heroImage: ../../assets/jose-fontano-pZld9PiPDno-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2025/06/16/Auth-With-the-SDKs.html
 ---
 
 Cloudant's SDKs for [Java](https://github.com/IBM/cloudant-java-sdk), [Node.js](https://github.com/IBM/cloudant-node-sdk), [Python](https://github.com/IBM/cloudant-python-sdk) and [Go](https://github.com/IBM/cloudant-go-sdk) are official, supported libraries for building applications that store their data in IBM Cloudant databases. 

@@ -3,6 +3,7 @@ title: Removing Tombstones
 pubDate: 2021-05-21T06:00:00.000Z
 description: Expunging deleted documents from Cloudant or CouchDB databases
 heroImage: ../../assets/anton-darius-lQMtXKvBmuw-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2021/05/21/Removing-Tombstones.html
 ---
 
 Cloudant and its sister database Apache CouchDB store document data in revision trees. When a document is deleted, a special deletion (`"deleted": true`) revision is added to the head of the tree. This allows the intention that the document is to be deleted to be replicated around, whether that be to other nodes in the cluster or to other Cloudant or CouchDB services in other geographies. Without this mechanism, it would be possible for a deleted document to be unintentionally resurrected via replication from an external replica.

@@ -3,6 +3,7 @@ title: couchdiff
 pubDate: 2017-05-10T09:00:00.000Z
 description: Compare two databases on the command line
 heroImage: ../../assets/hermes-rivera-265380-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2017/05/10/Diff-your-database-couchdiff.html
 ---
 
 The Unix `diff` command-line utility has been around since the 1970s. It compares two text files line by line and tells you the differences between them.

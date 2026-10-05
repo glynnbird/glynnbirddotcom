@@ -3,6 +3,7 @@ title: "The beginsWith Operator"
 description: Using the new $beginsWith Cloudant Query operator
 pubDate: 2024-06-19T15:46:06+01:00
 heroImage: ../../assets/annie-spratt-88HN85BJbq4-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2024/06/19/The-BeginsWith-Operator.html
 ---
 
 Cloudant Query implements a declarative query language, where a number of operators can be combined to form complex queries which return a subset of documents in the database.

@@ -3,6 +3,7 @@ title: Emoji in Cloudant
 pubDate: 2018-05-30T09:00:00.000Z
 description: 🤔 ?
 heroImage: ../../assets/emoji5.jpg
+relCanonical: https://blog.cloudant.com/2018/05/30/Emoji-in-Cloudant-documents.html
 ---
 
 

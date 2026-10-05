@@ -3,6 +3,7 @@ title: Building a CRM System
 pubDate: 2019-03-29T06:00:00.000Z
 description: Creating a customer relations system with a partitioned Cloudant database.
 heroImage: ../../assets/crm0.jpg
+relCanonical: https://blog.cloudant.com/2019/03/29/Building-a-CRM-System.html
 ---
 
 A Customer Relationship Management (CRM) system is simply a means of recording your business's relations with your customers. It may consist of:

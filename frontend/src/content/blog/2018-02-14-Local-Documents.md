@@ -3,6 +3,7 @@ title: Local documents
 pubDate: 2018-02-13T09:00:00.000Z
 description: When you need to leave a bit of config behind
 heroImage: ../../assets/jerry-kiesewetter-flamingo.jpg
+relCanonical: https://blog.cloudant.com/2018/02/14/Local-Documents.html
 ---
 
 The Apache CouchDB&trade; family has a JSON document database for every application:

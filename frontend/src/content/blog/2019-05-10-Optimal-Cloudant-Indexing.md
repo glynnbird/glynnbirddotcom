@@ -3,6 +3,7 @@ title: Optimal Cloudant Indexing
 pubDate: 2019-05-10T06:00:00.000Z
 description: Getting away with fewer indexes
 heroImage: ../../assets/edgar-chaparro-1421246-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2019/05/10/Optimal-Cloudant-Indexing.html
 ---
 
 

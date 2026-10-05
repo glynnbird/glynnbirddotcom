@@ -3,6 +3,7 @@ title: Cloudant Fundamentals 4/10
 pubDate: 2018-05-29T09:00:00.000Z
 description: Using the API with curl
 heroImage: ../../assets/michael-podger-43123-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2018/05/29/Using-API-with-curl.html
 ---
 
 

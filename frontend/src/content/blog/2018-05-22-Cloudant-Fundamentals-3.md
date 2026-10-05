@@ -3,6 +3,7 @@ title: Cloudant Fundamentals 3/10
 pubDate: 2018-05-22T09:00:00.000Z
 description: The _rev token
 heroImage: ../../assets/sergei-akulich-trees.jpg
+relCanonical: https://blog.cloudant.com/2018/05/22/Cloudant-Fundamentals-3.html
 ---
 
 

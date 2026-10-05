@@ -3,6 +3,7 @@ title: Count Distinct
 pubDate: 2018-12-14T06:00:00.000Z
 description: Counting distinct values using MapReduce indexes
 heroImage: ../../assets/sylvanus-urban-302505-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2018/12/14/Count-Distinct-with-Cloudant.html
 ---
 
 In 2017 I blogged about creating [custom indexes outside of Cloudant](https://medium.com/ibm-watson-data-lab/custom-indexers-for-cloudant-6b7e65186db1) for problems that didn't fit Cloudant's indexing engine. One of those was the *count distinct problem*. 

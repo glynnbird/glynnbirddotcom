@@ -3,6 +3,7 @@ title: Cloudant Fundamentals 5/10
 pubDate: 2018-06-04T09:00:00.000Z
 description: Using the Bulk API
 heroImage: ../../assets/matt-schwartz-408909-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2018/06/04/Cloudant-Fundamentals-The-Bulk-API.html
 ---
 
 

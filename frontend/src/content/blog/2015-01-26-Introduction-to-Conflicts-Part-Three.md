@@ -3,6 +3,7 @@ title: Introduction to Conflicts - 3/3
 pubDate: 2015-01-26T09:00:00.000Z
 description: Avoiding document conflicts through design.
 heroImage: ../../assets/jean-wimmerlin-535180-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2015/01/26/Introduction-to-Conflicts-Part-Three.html
 ---
 
 

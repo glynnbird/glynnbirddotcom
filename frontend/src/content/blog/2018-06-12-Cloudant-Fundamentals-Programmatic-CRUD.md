@@ -3,6 +3,7 @@ title: Cloudant Fundamentals 6/10
 pubDate: 2018-06-12T08:00:00.000Z
 description: Programmatic CRUD
 heroImage: ../../assets/max-nelson-492729-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2018/06/12/Cloudant-Fundamentals-Programmatic-CRUD.html
 ---
 
 

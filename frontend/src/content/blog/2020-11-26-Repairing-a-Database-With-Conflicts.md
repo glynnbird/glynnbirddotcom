@@ -3,6 +3,7 @@ title: Repairing a database with conflicts
 pubDate: 2020-11-26T06:00:00.000Z
 description: Three ways to eliminate conflicts from a Cloudant database
 heroImage: ../../assets/jeshoots-com-VdOO4_HFTWM-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2020/11/26/Repairing-a-Database-With-Conflicts.html
 ---
 
 

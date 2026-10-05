@@ -3,6 +3,7 @@ title: "Custom Request Ids"
 description: Supplying your own request id with every API call.
 pubDate: 2025-07-24T00:00:00+00:00
 heroImage: ../../assets/dan-smedley-k5uXZniydCg-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2025/07/24/Custom-Request-Ids.html
 ---
 
 Cloudant generates a unique identifier for every incoming HTTP API request. This is a "uuid" that is returned to the user as a header and is recorded in Cloudant's service logs.

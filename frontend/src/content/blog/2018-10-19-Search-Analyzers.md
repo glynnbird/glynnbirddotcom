@@ -3,6 +3,7 @@ title: Search Analyzers
 pubDate: 2018-10-19T06:00:00.000Z
 description: Processing data prior to indexing
 heroImage: ../../assets/hans-peter-gauster-252751-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2018/10/19/Search-Analyzers.html
 ---
 
 Cloudant Search is the free-text search technology built in to the Cloudant database that is powered by [Apache Lucene](http://lucene.apache.org/). Lucene-based indexes are used for:

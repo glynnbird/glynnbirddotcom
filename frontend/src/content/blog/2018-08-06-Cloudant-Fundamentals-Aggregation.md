@@ -3,6 +3,7 @@ title: Cloudant Fundamentals 10/10
 pubDate: 2018-08-06T06:00:00.000Z
 description: Aggregation
 heroImage: ../../assets/sven-scheuermeier-61236-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2018/08/06/Cloudant-Fundamentals-Aggregation.html
 ---
 
 It's been an emotional journey through Cloudant's fundamentals but we're nearly at the end. In this final post, we'll discuss data aggregation: counting, summing and statistics.

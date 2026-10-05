@@ -3,6 +3,7 @@ title: Modelling with TypeScript
 pubDate: 2018-06-29T06:00:00.000Z
 description: Making TypeScript objects to store in Cloudant
 heroImage: ../../assets/swapnil-dwivedi-246205-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2018/06/29/Modelling-Cloudant-Data-in-TypeScript.html
 ---
 
 

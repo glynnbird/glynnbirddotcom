@@ -3,6 +3,7 @@ title: Timing HTTP Requests
 pubDate: 2019-12-06T06:00:00.000Z
 description: Detailed HTTP timings for your Node.js application
 heroImage: ../../assets/john-barkiple-l090uFWoPaI-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2019/12/06/Timing-HTTP-Requests-in-Nodejs.html
 ---
 
 Building a Cloudant-based application with Node.js means that your app will making many HTTP requests to your Cloudant service. It's important to understand how such HTTP traffic is coordinated in Node and to be able to measure the anatomy of each request so that you can measure latencies and eliminate unwanted delays.

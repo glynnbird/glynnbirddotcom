@@ -3,6 +3,7 @@ title: Optimising Cloudant Queries
 pubDate: 2020-05-20T06:00:00.000Z
 description: Making the best index to match your query
 heroImage: ../../assets/peter-kleinau-oP_xD70TpsI-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2020/05/20/Optimising-Cloudant-Queries.html
 ---
 
 [Cloudant Query](https://cloud.ibm.com/docs/services/Cloudant?topic=cloudant-query) is a JSON-based query language inspired by MongoDB. It allows the developer to express the slice of data they need from a database using a mixture of logical and comparison operators.

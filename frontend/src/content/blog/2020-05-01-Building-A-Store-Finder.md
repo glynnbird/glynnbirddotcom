@@ -3,6 +3,7 @@ title: Building a Store Finder
 pubDate: 2020-05-01T06:00:00.000Z
 description: Sorting documents be distance from a point
 heroImage: ../../assets/sherzod-max-edZ_WxeUlWc-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2020/05/01/Building-A-Store-Finder.html
 ---
 
 > Note: Given the age of this blog post, several links may be broken.

@@ -3,6 +3,7 @@ title: "New Reducers"
 description: Understanding the new MapReduce reducers.
 pubDate: 2025-05-23T00:00:00+00:00
 heroImage: ../../assets/javier-quiroga-IuGDNXawS9M-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2025/05/23/New-Reducers.html
 ---
 
 As of June 2025, Cloudant now supports some new MapReduce _reducers_. In this blog post we'll discuss what each of these reducers does and useful applications for each.

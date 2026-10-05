@@ -3,6 +3,7 @@ title: Cloudant Fundamentals 2/10
 pubDate: 2018-05-14T09:00:00.000Z
 description: The _id
 heroImage: ../../assets/boats.jpeg
+relCanonical: https://blog.cloudant.com/2018/05/14/Cloudant-Fundamentals-2.html
 ---
 
 

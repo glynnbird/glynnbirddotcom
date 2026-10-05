@@ -3,6 +3,7 @@ title: "Search Syntax"
 description: A primer on Cloudant Search query syntax.
 pubDate: 2023-07-15T00:00:00+00:00
 heroImage: ../../assets/paul-green-mln2ExJIkfc-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2023/07/15/Search-Syntax.html
 ---
 
 Cloudant Search allows full-text queries to be performed on strings from Cloudant document bodies and multi-field queries on mixed-type document attributes.

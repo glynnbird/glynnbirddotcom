@@ -3,6 +3,7 @@ title: "The Node SDK"
 description: Getting started with Node.js and Cloudant
 pubDate: 2023-11-24T15:15:30Z
 heroImage: ../../assets/codesdk.png
+relCanonical: https://blog.cloudant.com/2023/11/24/Getting-Started-With-Node-SDK.html
 ---
 
 The benefits of using the [Cloudant Node SDK](https://github.com/IBM/cloudant-node-sdk) instead of writing your own code from scratch are obvious:

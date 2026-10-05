@@ -3,6 +3,7 @@ title: Command-line tools
 pubDate: 2015-10-19T09:00:00.000Z
 description: Backup, shell, migration and more
 heroImage: ../../assets/cli.png
+relCanonical: https://blog.cloudant.com/2015/10/19/Command-line-tools-for-Cloudant.html
 ---
 
 

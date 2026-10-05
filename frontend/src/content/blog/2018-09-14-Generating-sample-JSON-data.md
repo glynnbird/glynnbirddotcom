@@ -3,6 +3,7 @@ title: Generating sample data
 pubDate: 2018-09-14T09:00:00.000Z
 description: Creating realistic JSON data in bulk
 heroImage: ../../assets/kristian-strand-791607-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2018/09/14/Generating-sample-JSON-data.html
 ---
 
 

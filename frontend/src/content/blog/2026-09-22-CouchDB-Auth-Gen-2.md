@@ -3,6 +3,7 @@ title: "CouchDB Auth Gen 2"
 description: How to use CouchDB authentication in Cloudant Gen 2
 pubDate: 2026-09-22T09:00:00+00:00
 heroImage: ../../assets/dave-meckler-u1ebF25geyI-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2026/09/22/CouchDB-Auth-Gen-2.html
 ---
 
 [Cloudant Gen 2](https://cloud.ibm.com/docs/cloudant-gen2) is the newest Cloudant plan built on IBM Cloud’s latest platform. It is based on a highly secure software-defined networking architecture and is ideal for cloud-native applications.

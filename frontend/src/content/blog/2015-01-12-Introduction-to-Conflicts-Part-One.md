@@ -3,6 +3,7 @@ title: Introduction to Conflicts - 1/3
 pubDate: 2015-01-12T09:00:00.000Z
 description: Cloudant document conflicts - what are they?
 heroImage: ../../assets/frida-bredesen-317281-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2015/01/12/Introduction-to-Conflicts-Part-One.html
 ---
 
 

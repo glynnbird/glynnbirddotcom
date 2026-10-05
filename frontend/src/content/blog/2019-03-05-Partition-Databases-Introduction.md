@@ -3,6 +3,7 @@ title: Partitioned Databases - Introduction
 pubDate: 2019-03-05T06:00:00.000Z
 description: Organise data into partitions for a speed boost and cost savings.
 heroImage: ../../assets/toa-heftiba-82432-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2019/03/05/Partition-Databases-Introduction.html
 ---
 
 Cloudant has a new feature called *Partitioned Databases* which makes querying faster to execute while being cheaper per query request. In this article, we'll find out what Partitioned Databases are, how to set them up and how they work. Other posts provide a deep dive into data modelling and data migration.

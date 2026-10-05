@@ -3,6 +3,7 @@ title: Design Docs For Life
 pubDate: 2019-08-16T06:00:00.000Z
 description: All about Cloudant Design Documents.
 heroImage: ../../assets/kelly-sikkema-o2TRWThve_I-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2019/08/16/Design-Docs-For-Life.html
 ---
 
 A Design Document is a special Cloudant document whose `_id` field begins with `_design/` e.g. `_design/search`. It stores meta data about a secondary index or indexes: the name of the index, which fields are to be indexed etc. Design documents are created in one of two ways:

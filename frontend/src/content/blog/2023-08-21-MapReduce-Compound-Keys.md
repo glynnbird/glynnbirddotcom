@@ -3,6 +3,7 @@ title: "MapReduce Compound Keys"
 description: Using arrays as keys for complex grouped aggregation.
 pubDate: 2023-08-21T00:00:00Z
 heroImage: ../../assets/american-public-power-association-dCx2xFuPWks-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2023/08/21/MapReduce-Compound-Keys.html
 ---
 
 Cloudant's MapReduce mechansim is the original, and some say the best way of extracting data from a Cloudant database. In this blog post we'll look at how compound keys can be used with MapReduce to provide flexible indexes for selection, range queries and grouped aggregation.

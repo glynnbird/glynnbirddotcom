@@ -3,6 +3,7 @@ title: Cloudant Fundamentals 9/10
 pubDate: 2018-07-12T06:00:00.000Z
 description: Indexing
 heroImage: ../../assets/neonbrand-307861-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2018/07/12/CloudantFundamentals-Indexing.html
 ---
 
 In part 7 of this series, we saw a warning in the search results:

@@ -3,6 +3,7 @@ title: "IBM Cloud Logs"
 description: Using Cloudant with IBM Cloud Logs
 pubDate: 2024-12-23T11:03:51Z
 heroImage: ../../assets/oliver-paaske-UpiojWtxJwM-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2024/12/23/IBM-Cloud-Logs.html
 ---
 
 [IBM Cloud Logs](https://www.ibm.com/products/cloud-logs) (ICL) is the centrepiece of IBM's observability offering. It allows logs from your application stack and from IBM's platform services to be retained, queried and turned into dashboards or alerts.

@@ -3,6 +3,7 @@ title: "Provisioning Cloudant With Terraform"
 description: How to deploy a Cloudant instance using Terraform.
 pubDate: 2023-08-22T00:00:00Z
 heroImage: ../../assets/xavi-cabrera-kn-UmDZQDjM-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2023/08/22/Provisioning-Cloudant-With-Terraform.html
 ---
 
 [Terraform](https://www.terraform.io/) is a hugely popular infrastructure management tool. It allows the representation of _infrastructure as code_, allowing definitions of complex systems to be specified in simple text files which can be committed to a multi-user change control system (like Git).

@@ -3,6 +3,7 @@ title: "Throttling Replication"
 description: Controlling the speed of Cloudant replication jobs
 pubDate: 2024-02-01T00:00:00Z
 heroImage: ../../assets/igal-ness-wQfV9njQxW4-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2024/02/01/Throttling-Replication.html
 ---
 
 # Throttling replicaion

@@ -3,6 +3,7 @@ title: Partial Indexes
 pubDate: 2018-01-10T09:00:00.000Z
 description: Filter data before it's indexed
 heroImage: ../../assets/shelves-jay-wennington.jpg
+relCanonical: https://blog.cloudant.com/2018/01/10/Partial-Indexes.html
 ---
 
 Indexing is what makes database queries fast and scalable. Without and index, a database is forced to trawl through *every record* to calculate the answer to a query. A carefully designed index allows a query to be answered with a fraction of a work by jumping to the pertinent portion.

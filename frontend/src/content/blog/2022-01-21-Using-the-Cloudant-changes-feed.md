@@ -3,6 +3,7 @@ title: Using the Changes Feed
 pubDate: 2022-01-21T00:00:00.000Z
 description: Best practice and pitfalls
 heroImage: ../../assets/chris-lawton-5IHz5WhosQE-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2022/01/21/Using-the-Cloudant-changes-feed.html
 ---
 
 A Cloudant database's changes feed's primary use-case is to power the replication of data from a source to a target database. The Cloudant replicator is built to handle the changes feed and performs the necessary checks to ensure data is copied accurately to its destination. 

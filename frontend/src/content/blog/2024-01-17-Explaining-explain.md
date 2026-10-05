@@ -3,6 +3,7 @@ title: "Explaining Explain"
 description: How index selection works in Cloudant Query
 pubDate: 2024-01-17T00:00:00Z
 heroImage: ../../assets/diego-jimenez-A-NVHPka9Rk-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2024/01/17/Explaining-Explain.html
 ---
 
 Cloudant Query provides an API to extract slices of data from a database. A `selector` object is supplied to Cloudant (think of it as the "where" clause of an SQL query) which provides the query definition and Cloudant trawls the database for matching documents.

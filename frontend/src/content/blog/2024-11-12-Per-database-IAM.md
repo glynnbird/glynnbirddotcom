@@ -3,6 +3,7 @@ title: "Per Database IAM"
 description: Finer-grained controls over IAM polices.
 pubDate: 2024-11-12T00:00:00Z
 heroImage: ../../assets/patrick-robert-doyle--XiKxvvFGgU-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2024/11/12/Per-Database-IAM.html
 ---
 
 Until recently, IBM's Identity and Access Management (IAM) system could be used to grant access to whole IBM Cloudant instances or groups of instances, including all of their databases and all of those databases' documents. As of November 2024, this has been improved to allow finer-grained _database-level_ access.

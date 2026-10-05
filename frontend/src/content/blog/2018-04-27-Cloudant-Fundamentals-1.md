@@ -3,6 +3,7 @@ title: Cloudant Fundamentals 1/10
 pubDate: 2018-04-27T09:00:00.000Z
 description: The Document
 heroImage: ../../assets/kristina-tripkovic.jpg
+relCanonical: https://blog.cloudant.com/2018/04/27/Cloudant-Fundamentals-1.html
 ---
 
 > Note: Given the age of this blog post, several links may be broken.

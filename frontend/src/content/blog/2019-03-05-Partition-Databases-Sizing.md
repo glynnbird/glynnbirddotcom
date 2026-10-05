@@ -3,6 +3,7 @@ title: Partitioned Databases - Sizing
 pubDate: 2019-03-05T09:00:00.000Z
 description: Calculating the size of each partition in a partitioned database.
 heroImage: ../../assets/annie-spratt-96526-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2019/03/05/Partition-Databases-Sizing.html
 ---
 
 

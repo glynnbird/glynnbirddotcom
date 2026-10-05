@@ -3,6 +3,7 @@ title: Caching with Nginx
 pubDate: 2018-11-23T06:00:00.000Z
 description: Caching Cloudant reads for faster performance
 heroImage: ../../assets/denise-johnson-426653-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2018/11/23/Caching-Cloudant-with-Nginx.html
 ---
 
 Cloudant and its open-source sibling Apache CouchDB were were born on the web. Their HTTP/HTTPS API is not a bolt-on afterthought - it is *the* way of interacting with the database built in from the ground up. Let's take the use-case of Cloudant being used as a back-end database in a traditional client/server web app:

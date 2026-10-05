@@ -3,6 +3,7 @@ title: Replication Efficiency Improvements
 pubDate: 2023-02-08T00:00:00.000Z
 description: How to make replication go faster
 heroImage: ../../assets/vince-fleming-Vmr8bGURExo-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2023/02/08/Replication-efficiency-improvements.html
 ---
 
 Cloudant's replication is a rock-solid protocol that allows a database's changes to be easily synced to a different database. This feature is used widely to create multi-region Cloudant topologies, allowing dependent applications to survive a regional Cloud outage.

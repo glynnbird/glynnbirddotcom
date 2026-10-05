@@ -3,6 +3,7 @@ title: Time-sortable _ids
 pubDate: 2018-08-24T06:00:00.000Z
 description: Making _ids unique and time-sortable
 heroImage: ../../assets/jeff-frenette-635397-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2018/08/24/Time-sortable-document-ids.html
 ---
 
 A Cloudant database document's `_id` field has to be unique. When you create a document and leave the `_id` field blank, the database will create one for you:

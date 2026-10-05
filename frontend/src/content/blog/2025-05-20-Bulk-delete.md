@@ -3,6 +3,7 @@ title: "Bulk Delete"
 description: How to bulk delete data in Cloudant
 pubDate: 2025-05-20T09:00:00Z
 heroImage: ../../assets/pawel-czerwinski-RkIsyD_AVvc-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2025/05/20/Bulk-Delete.html
 ---
 
 # Bulk Delete

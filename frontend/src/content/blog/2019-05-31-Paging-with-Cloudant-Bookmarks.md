@@ -3,6 +3,7 @@ title: Paging with Bookmarks
 pubDate: 2019-05-31T06:00:00.000Z
 description: Using bookmarks to page through results sets.
 heroImage: ../../assets/erol-ahmed-1450791-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2019/05/31/Paging-with-Cloudant-Bookmarks.html
 ---
 
 Imagine you are creating a web application showing a set of search results, whether they be books, actors or products in your store. As the user scrolls to the bottom of the search results, another page of matches is appended to the bottom. This is known as an "infinite scroll" design pattern and allows the user to endlessly scroll through a large data set with ease, while only fetching a smaller batches of data from the database each time.

@@ -3,6 +3,7 @@ title: "Scaling Up and Down"
 description: Ramping up capacity to deal with peaks in traffic
 pubDate: 2024-09-04T15:06:56+01:00
 heroImage: ../../assets/dylan-mcleod-Q81AduLKMMc-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2024/09/04/Scaling-Up-and-Down.html
 ---
 
 IBM Cloudant Standard allows your database service's provisioned capacity to be altered dynamically to reflect changes in your application's demand. That is, you can allow your application to send more traffic to Cloudant by telling Cloudant ahead of time that you need extra capacity.

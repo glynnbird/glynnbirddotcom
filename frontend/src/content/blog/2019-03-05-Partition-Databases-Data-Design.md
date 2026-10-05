@@ -3,6 +3,7 @@ title: Partitioned Databases - Data Design
 pubDate: 2019-03-05T07:00:00.000Z
 description: Designing your data for a partitioned database, including indexing and querying
 heroImage: ../../assets/toa-heftiba-239004-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2019/03/05/Partition-Databases-Data-Design.html
 ---
 
 Modelling data with a JSON document store is very different from modelling data in a relational database system. Generations of computer scientists have been taught how to [normalize data](https://en.wikipedia.org/wiki/Database_normalization) into tables, that is organising data into their own collections so that information is not repeated and relationships between collections are modelled with foreign keys.

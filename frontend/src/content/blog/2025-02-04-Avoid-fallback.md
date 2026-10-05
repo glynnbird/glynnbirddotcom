@@ -3,6 +3,7 @@ title: "Avoiding Query Fallback"
 description: Prevent runaway queries scanning all documents
 pubDate: 2025-02-04T11:35:33Z
 heroImage: ../../assets/quino-al-rK_nz3DswX4-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2025/02/04/Avoid-Fallback.html
 ---
 
 Cloudant's [POST /{db}/_find](https://cloud.ibm.com/apidocs/cloudant#postfind) endpoint allows queries to be sent to Cloudant that pick subsets of data from a collection of JSON documents. The database will first look for a secondary index that can assist in answering a query - if suitable indexes are found that can benefit the query, the best index is selected to be used to execute the query.

@@ -3,6 +3,7 @@ title: Partitioned Databases and Node.js
 pubDate: 2019-05-24T06:00:00.000Z
 description: Using Partitioned Databases with the Node.js library.
 heroImage: ../../assets/amelie-ohlrogge-1503757-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2019/05/24/Partitioned-Databases-with-Cloudant-Libraries.html
 ---
 
 

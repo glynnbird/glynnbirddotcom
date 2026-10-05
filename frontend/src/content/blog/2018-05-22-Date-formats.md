@@ -3,6 +3,7 @@ title: Date formats
 pubDate: 2018-05-24T09:00:00.000Z
 description: Storing date & time in JSON
 heroImage: ../../assets/dateformat.jpg
+relCanonical: https://blog.cloudant.com/2018/05/22/Date-formats.html
 ---
 
 

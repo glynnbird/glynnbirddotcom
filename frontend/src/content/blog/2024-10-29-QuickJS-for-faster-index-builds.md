@@ -3,6 +3,7 @@ title: "QuickJS for Faster Index Builds"
 description: A new JavaScript engine that's smaller and faster.
 pubDate: 2024-10-29T00:00:00Z
 heroImage: ../../assets/robin-pierre-dPgPoiUIiXk-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2024/10/29/QuickJS-for-Faster-Index-Builds.html
 ---
 
 Cloudant's MapReduce and Search indexes are created by defining JavaScript functions which are executed on every live document: the data emitted from those functions is then saved to the index e.g.
