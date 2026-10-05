@@ -3,6 +3,7 @@ title: "Spurious Conflict Reduction"
 description: The chance of getting a spurious conflict is now dramatically reduced
 pubDate: 2026-09-28T00:00:00+01:00
 heroImage: ../../assets/michael-fenton-0ZQ8vojHNuc-unsplash.jpg
+relCanonical: https://blog.cloudant.com/2026/09/28/Conflict-Reduction.html
 ---
 
 Cloudant used to occasionally create _conflicted_ documents when a document revision was modified in different ways at the same time, but now these _spurious conflicts_ are dramatically reduced with the latest Cloudant release.

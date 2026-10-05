@@ -8,17 +8,25 @@ import Header from '../components/Header.astro';
 
 type Props = CollectionEntry<'blog'>['data'];
 
-const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
+const { title, description, pubDate, updatedDate, heroImage, relCanonical } = Astro.props;
 ---
 
 <html lang="en">
 	<head>
-		<BaseHead title={title} description={description} />
+		<BaseHead title={title} description={description} image={heroImage} relCanonical={relCanonical} />
 		<style>
 			main {
 				width: calc(100% - 2em);
 				max-width: 100%;
 				margin: 0;
+			}
+			.rel-canonical {
+				margin-top: 1em;
+				font-size: 1.1em;
+				color: rgb(var(--gray));
+				background-color: rgb(var(--gray-light));
+				padding: 0.5em;
+				border-radius: 8px;
 			}
 			.hero-image {
 				width: 100%;
@@ -77,6 +85,7 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 						<h1>{title}</h1>
 						<hr />
 					</div>
+					{ relCanonical && <div class="rel-canonical">This article was published first at {relCanonical}</div>}
 					<slot />
 				</div>
 			</article>
