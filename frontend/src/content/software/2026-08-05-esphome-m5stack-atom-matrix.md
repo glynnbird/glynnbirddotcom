@@ -29,6 +29,8 @@ and three simple bar charts showing the state of batteries for:
 - car 1
 - car 2
 
+![picture](../../assets/esphome1.png)
+
 ## Getting Started
 
 You need a fully functioning Home Assistant setup with some sensors. The YAML below will not work out-of-the-box, but you can use it as a guide on how to make your own. I borrowed heavily from [this blog post](https://www.thoughtasylum.com/2024/04/27/home-assistant-matrix-display-for-indicators/) without which I wouldn't have got anywhere.
@@ -231,3 +233,7 @@ It can be useful to add something into the M5Stack's logs for debugging. I used 
 ```C
 ESP_LOGI("soc", "Value of my sensor: %f", id(car1_battery).get_state());
 ```
+
+## Finished result
+
+![photo](../../assets/esphome2.jpg)
